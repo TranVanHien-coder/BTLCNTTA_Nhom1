@@ -1,0 +1,52 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	1.6 0 0.5
+	children [
+		Shape {
+			geometry Box {
+				size 3.2 0.3 1
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .53 .14 .01
+					specularColor .34 .05 .05
+					emissiveColor .3 .05 .05
+					ambientIntensity .0367
+					shininess .07
+				}
+
+				texture ImageTexture {	
+					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+		}
+	]
+}
+
+Transform {
+	translation	1.6 0.3 0.35
+	children [
+		  Shape {
+			geometry Box {
+				size 3.2 0.3 0.7
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .53 .14 .01
+					specularColor .34 .05 .05
+					emissiveColor .3 .05 .05
+					ambientIntensity .0367
+					shininess .07
+				}
+				texture ImageTexture {	
+					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+		}
+	]
+}

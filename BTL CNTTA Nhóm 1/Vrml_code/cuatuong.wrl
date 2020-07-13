@@ -1,0 +1,189 @@
+#VRML V2.0 utf8
+
+Shape {
+	geometry Box {
+	   size	6 1.5 0.1
+	}
+	appearance DEF mau Appearance {
+					material Material {
+						diffuseColor 0 .21 .25
+						specularColor 0 .21 .26
+						ambientIntensity .04
+						shininess .32
+						emissiveColor 0 .22 .26
+					}
+				}
+}
+
+Transform {
+	translation	-4.7 -0.2 -1
+	children [
+		DEF	cuaMoT Transform {
+			children [
+				DEF	cuaTrai Transform {
+					translation	0.3 0.7 1
+					children [
+						DEF	obcua1 Transform {
+							translation	0.35 0 0
+							children [
+								DEF obCua Transform	{	   
+									children [
+										DEF	vecua Shape	{
+											appearance Appearance {
+            									material Material {
+            									  diffuseColor 0.6 0.5882 0.6353
+            									  ambientIntensity 1.0
+            									  specularColor 0 0 0
+            									  shininess 0.145
+            									  transparency 0.5
+            									}
+        									}
+											geometry Box {
+												size 0.7 2.5 0.01
+											}
+										}
+										DEF	taycamT Transform {
+											translation	0.2 0 0
+											scale .2 .2 .2
+											children [
+												DEF veTayCam Shape {
+													geometry Extrusion {
+														creaseAngle	1
+														solid FALSE
+														crossSection [1 1, 1 -1, -1 -1, -1 1, 1 1]
+														spine [-0.5 0 -0.5, 0.5 0 -0.5,0.5 0 0.5,-0.5 0 0.5]
+														scale [.1 .1, .1 .1, .1 .1,.1 .1]
+													}
+													appearance Appearance {
+														material Material {
+															diffuseColor .09 .03 0
+															specularColor .22 .1 .1
+															ambientIntensity .01
+															shininess .05
+														}
+													}
+												}
+											]
+										}
+									]
+	
+								}
+							]
+						}
+					]
+				}
+				DEF	cylin1 CylinderSensor {
+									minAngle -1.57
+									maxAngle 1.57
+									enabled	TRUE
+								}
+			]
+			ROUTE cylin1.rotation_changed TO cuaTrai.rotation
+		}
+		
+		DEF	cuaMoP Transform {
+			children [
+				DEF	cuaPhai Transform {
+					translation	1.7 0.7 1
+					children [
+						DEF	obcua2 Transform {
+							translation	-0.35 0 0
+							children [
+								DEF obCuaP Transform {	 
+									children [
+										USE vecua 
+										Transform {
+											translation	-0.2 0 0
+											scale .2 .2 .2
+											rotation 0 1 0 3.14
+											children [USE veTayCam ]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				DEF	cylin2 CylinderSensor {
+									minAngle -1.57
+									maxAngle 1.57
+									enabled	TRUE
+								}
+				
+			]
+			ROUTE cylin2.rotation_changed TO cuaPhai.rotation
+		}
+	]
+}
+
+Transform {
+	translation	-7.775 0 0
+	children [
+		Shape {
+			geometry Box {
+				size 6.75 1.5 0.1
+			}
+			appearance USE mau
+		}
+	]
+}
+
+Transform {
+	translation	0 1.75 0
+	children [
+		Shape {
+			geometry Box {
+				size 6 2 0.05
+			}
+			appearance Appearance {
+            	material Material {
+            		diffuseColor 0.6 0.5882 0.6353
+            		ambientIntensity 1.0
+            		specularColor 0 0 0
+            		shininess 0.145
+            		transparency 0.5
+            	}
+        	}
+		}
+	]
+}
+
+Transform {
+	translation	-7.775 1.75 0
+	children [
+		Shape {
+			geometry Box {
+				size 6.75 2 0.05
+			}
+			appearance Appearance {
+            	material Material {
+            		diffuseColor 0.6 0.5882 0.6353
+            		ambientIntensity 1.0
+            		specularColor 0 0 0
+            		shininess 0.145
+            		transparency 0.5
+            	}
+        	}
+		}
+	]
+}
+
+Transform {
+	translation	-3.7 2.25 0
+	children [
+		Shape {
+			geometry Box {
+				size 1.4 1 0.05
+			}
+			appearance Appearance {
+            	material Material {
+            		diffuseColor 0.6 0.5882 0.6353
+            		ambientIntensity 1.0
+            		specularColor 0 0 0
+            		shininess 0.145
+            		transparency 0.5
+            	}
+        	}
+		}
+	]
+}
