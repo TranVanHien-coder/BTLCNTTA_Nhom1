@@ -1,0 +1,97 @@
+#VRML V2.0 utf8
+
+Shape {
+	appearance Appearance {
+				texture ImageTexture {	
+				url "img\vango.jpg"	
+				repeatS TRUE  
+				repeatT TRUE  
+				} 	
+			}
+		geometry  Box {size 0.77 0.03 0.67}
+	}
+	#thanhngang
+	Transform {
+		translation	0 0 0.35
+		children [
+			DEF thanhngang Shape{
+				appearance Appearance {
+					material  DEF M Material {
+						diffuseColor 0 0 0
+						specularColor .29 .3 .29
+						ambientIntensity 0
+						shininess .08
+					}}
+					geometry Box {size 0.825 0.03 0.03}}]
+		}
+		Transform {
+			translation	0 0 -0.35
+			children [
+				USE	thanhngang
+			]
+		}
+
+		Transform {
+			translation	0.4 0 0
+			rotation 0 1 0 1.57
+			children [
+				DEF thanhngang1 Shape{
+				appearance Appearance {
+					material  DEF M1 Material {
+						diffuseColor 0 0 0
+						specularColor .29 .3 .29
+						ambientIntensity 0
+						shininess .08
+					}}
+					geometry Box {size 0.725 0.03 0.03}}
+				
+			]
+		}
+		Transform {
+			translation	-0.4 0 0
+			rotation 0 1 0 1.57
+			children [
+				USE	thanhngang1
+			]
+		}
+
+	#chan
+	Transform {
+		translation	0.4 -0.39 0.345
+		children [
+			DEF	 chan Shape	{
+				appearance  Appearance {
+					material DEF Mau Material {
+						diffuseColor 0 0 0
+						specularColor .29 .3 .29
+						ambientIntensity 0
+						shininess .08
+					}
+			    }
+				geometry Box {size 0.03 0.8 0.03}
+			}
+		]
+	}
+
+	Transform  {
+		translation	-0.4 -0.39 0.345
+		children [
+			USE	chan
+		]
+	}
+	Transform  {
+		translation	-0.4 -0.39 -0.345
+		children [
+			USE	chan
+		]
+	}
+	Transform {
+		translation	0.4 -0.39 -0.345
+		children [
+			USE	chan
+		]
+	}
+
+
+			
+            

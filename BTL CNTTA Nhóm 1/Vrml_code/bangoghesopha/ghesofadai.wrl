@@ -1,0 +1,150 @@
+#VRML V2.0 utf8
+
+		Transform {
+		translation	0 0 0.6
+		children [
+			DEF thanhngang1 Shape{
+				appearance Appearance {
+					material  DEF M1 Material {
+						diffuseColor .61 .61 .61
+						specularColor .77 .76 .76
+						ambientIntensity .14
+						shininess .9
+					}}
+					geometry Box {size 0.5 0.03 0.03}}]
+		}
+		Transform {
+			translation	0 0 -0.6
+			children [
+				USE	thanhngang1
+			]
+		}
+		
+		Transform {
+			translation	-0.265 0 0
+			rotation 0 1 0 1.57
+			children [
+				DEF thanhngang2 Shape{
+				appearance Appearance {
+					material  DEF M2 Material {
+						diffuseColor .61 .61 .61
+						specularColor .77 .76 .76
+						ambientIntensity .14
+						shininess .9
+					}}
+					geometry Box {size 1.23 0.03 0.03}}
+			]
+		}
+		Transform {
+			translation	0.265 0 0
+			rotation 0 1 0 1.57
+			children [
+				USE	thanhngang2
+			]
+		}
+		Transform {
+		translation	0.265 -0.1 0.6
+		children [
+		DEF	 chan Shape	{
+				appearance  Appearance {
+					material DEF Mau Material {
+							diffuseColor .61 .61 .61
+						specularColor .77 .76 .76
+						ambientIntensity .14
+						shininess .9
+					}
+			    }
+				geometry Box {size 0.03 0.2 0.03}
+			}
+		]
+	}
+
+	Transform  {
+		translation	-0.265 -0.1 0.6
+		children [
+			USE	chan
+		]
+	}
+	Transform  {	
+		translation	-0.265 -0.1 -0.6
+		children [
+			USE	chan
+		]
+	}
+	Transform {
+		translation	0.265 -0.1 -0.6
+		children [
+			USE	chan
+		]
+	}
+		Transform {
+		translation	0 0.0495 0
+		children [
+			DEF	matngoi Shape {
+	appearance Appearance {
+				texture ImageTexture {	
+				url "img\xam.jpg"	
+				repeatS TRUE  
+				repeatT TRUE  
+				} 	
+			}
+		geometry  Box {size 0.6 0.07 1.34}
+	}
+		]
+	}
+		Transform {
+		translation	 0 0.335 -0.635
+		children [
+			DEF	matben Shape {
+	appearance Appearance {
+				texture ImageTexture {	
+				url "img\xam.jpg"	
+				repeatS TRUE  
+				repeatT TRUE  
+				} 	
+			}
+		geometry  Box {size 0.6 0.6 0.07 }
+	}
+		]
+	}
+	Transform {
+		translation	0 0.335 0.636
+		children [
+			USE	matben
+		]
+	}	Transform {
+		translation	 0.2635 0.335 0
+		children [
+			DEF	matsau Shape {
+	appearance Appearance {
+				texture ImageTexture {	
+				url "img\xam.jpg"	
+				repeatS TRUE  
+				repeatT TRUE  
+				} 	
+			}
+		geometry  Box {size 0.07 0.6 1.34}
+	}
+		]
+	}
+	Transform {
+		translation	-0.025 0.155 0.3
+		children [
+			DEF	nem Shape {
+				appearance  Appearance {
+				  texture ImageTexture {	
+				url "img\xamdam.jpg"	
+				repeatS TRUE  
+				repeatT TRUE
+				}
+			}
+			geometry Box {size 0.65 0.1 0.6}
+		}
+		]
+	}
+	Transform {
+		translation	-0.025 0.155 -0.3
+		children [
+			USE	nem
+		]
+	}
