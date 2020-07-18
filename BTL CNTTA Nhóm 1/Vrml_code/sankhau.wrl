@@ -1,0 +1,130 @@
+#VRML V2.0 utf8
+
+Transform {
+	scale 2 0.35 2
+	children [
+		Shape {
+			geometry Extrusion {
+				crossSection [
+				0 0
+				0.999833431	0.018251282
+				0.977061264	0.212958415
+				0.91674118	0.399481676
+				0.821191246	0.570653079
+				0.694083394	0.719894605
+				0.540302306	0.841470985
+				0.365757703	0.930710107
+				0 1
+				]
+
+				spine[0 0.1 0, 0 0 0]
+				solid FALSE
+			}		
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+			} 
+		}
+	]
+}
+
+Transform {
+	rotation 0 1 0 -0.39	 
+	translation	-0.77 0.0375 -1.475
+	scale 1.5 1 2
+	children [
+	DEF	sach Shape {
+			geometry Extrusion {
+				crossSection [
+					0.365757703	0.930710107
+					0.177157237	0.984182561
+					-0.018251282	0.999833431
+					-0.212958415	0.977061264
+					-0.399481676	0.91674118
+					-0.570653079	0.821191246
+					-0.719894605	0.694083394
+					-0.841470985	0.540302306	
+				]
+
+				spine [0 1 0, 0 0 0]
+				solid FALSE
+			}
+
+			appearance Appearance {
+				texture ImageTexture {	
+					url "images\sach.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+		}
+	]
+}
+
+#Transform {
+#	translation	-1.1 0.5 0.5
+#	children [
+#		Shape {
+#			geometry Text{ 
+#				string ["BIBLIO"]	
+#				fontStyle FontStyle{  
+#            				size 0.5	 
+#            				family "ARIAL" 
+#            				style "BOLD" 
+#            				spacing 1	
+#            				 justify "MIDDLE"
+#            				 horizontal TRUE 
+#            				 leftToRight TRUE 
+#            				 topToBottom TRUE
+#            				 } 
+#				length [1 1] 
+#				maxExtent 5.0 
+#			}	 
+#			appearance Appearance {
+#				material Material {
+#					diffuseColor 0 0 0
+#					specularColor .29 .3 .29
+#					ambientIntensity 0
+#					shininess .08
+#				}
+#			}
+#		}
+#	]
+#}
+
+Transform {
+	rotation 0 1 0 4.3	 
+	translation	1.47 0.0375 1.255
+	scale 1.5 1 2
+	children [
+		Shape {
+			geometry Extrusion {
+				crossSection [
+					0.365757703	0.930710107
+					0.177157237	0.984182561
+					-0.018251282	0.999833431
+					-0.212958415	0.977061264
+					-0.399481676	0.91674118
+					-0.570653079	0.821191246
+					-0.719894605	0.694083394
+					-0.841470985	0.540302306	
+				]
+
+				spine [0 1 0, 0 0 0]
+				solid FALSE
+			}
+			appearance Appearance {
+				texture ImageTexture {	
+					url "images\sach1.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+			
+		}
+	]
+}
