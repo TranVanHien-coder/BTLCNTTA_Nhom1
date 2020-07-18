@@ -1,0 +1,94 @@
+#VRML V2.0 utf8
+
+			   #VRML V2.0 utf8
+
+DEF sach1 Transform {
+	translation	0.1 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach15.wrl"
+	}
+	]
+}
+Inline {url "sach14.wrl"}
+
+Transform {
+	translation	0.2 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach13.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.3 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach12.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.4 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach11.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.5 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach10.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.6 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach9.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.7 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach7.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.8 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach8.wrl"
+	}
+	]
+}
+Transform {
+	translation	0.9 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach16.wrl"
+	}
+	]
+}
+Transform {
+	translation	1.0 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach20.wrl"
+	}
+	]
+}
+Transform {
+	translation	1.1 0 0.035
+	rotation 0 1 0 0.19625
+	children [Inline {
+		url	"sach12.wrl"
+	}
+	]
+}

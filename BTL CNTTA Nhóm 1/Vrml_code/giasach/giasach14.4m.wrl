@@ -1,0 +1,47 @@
+#VRML V2.0 utf8
+
+Inline {
+	url	"giasach3m.wrl"
+	bboxCenter 0 0 0
+	bboxSize -1 -1 -1
+}
+Transform {
+	translation	3 0 0
+	children [
+		Inline {
+			url	"giasach4.4m.wrl"
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+		}
+	]
+}
+Transform {
+	translation	7.4 0 0
+	children [
+		Inline {
+			url	"giasach3m.wrl"
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+		}
+	]
+}
+Transform {
+	translation	10.4 0 0
+	children [
+		Inline {
+			url	"giasach3m.wrl"
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+		}
+	]
+}
+Transform {
+	translation	13.4 0 0
+	children [
+		Inline {
+			url	"giasach1m.wrl"
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+		}
+	]
+}

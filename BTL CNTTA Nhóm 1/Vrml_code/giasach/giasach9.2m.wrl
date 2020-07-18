@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+
+DEF gia Inline {
+	url	"giasach3m.wrl"
+	bboxCenter 0 0 0
+	bboxSize -1 -1 -1
+}
+Transform {
+	translation	3 0 0
+	children [USE gia ]
+}
+Transform {
+	translation	6 0 0
+	children [USE gia ]
+}
