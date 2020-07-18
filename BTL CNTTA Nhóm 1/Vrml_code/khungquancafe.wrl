@@ -12,7 +12,7 @@ DEF matdat Transform {
 						ambientIntensity 0
 					}
 					texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhnendat.jpg"	
+					url "images\anhnendat.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
@@ -292,6 +292,34 @@ Transform {
 }
 
 Transform {
+	translation	20.4 1.775 39.95
+	children [
+		Shape {
+			appearance Appearance {
+				material USE mau
+			}
+			geometry Box {
+				size 40.6 3.5 0.1
+			}
+		}
+	]
+}
+
+Transform {
+	translation	0.05 1.775 25.1	
+	children [
+		Shape {
+			appearance Appearance {
+				material USE mau
+			}
+			geometry Box {
+				size 0.1 3.5 29.8
+			}
+		}
+	]
+}
+
+Transform {
 	translation	40.75 0.8 28.85
 	rotation 0 1 0 1.57
 	children [
@@ -312,11 +340,649 @@ Transform {
 }
 
 Transform {
-	translation	0 0.2 9.65
+	translation	0 0.2 9.7
 	rotation 0 1 0 1.57
 	children [
 		Inline {
 			url	["bacthang2bac.wrl"]
+		}
+	]
+}
+
+DEF ngantang Transform {
+	translation	22 3.6 20
+	children [
+		Shape {
+				geometry Box{
+					size 44 0.1 40
+				}
+				appearance Appearance {
+					material Material {
+						ambientIntensity 0
+					}  
+				}
+			}
+	]
+}
+
+Transform {
+	translation	22 4.15 39.95
+	children [
+	DEF	maunoitrc Shape {
+			geometry Box {
+				size 44 1 0.1
+			}
+		}
+	]
+}
+
+Transform {
+	translation	22 4.15 0
+	children [
+		USE	maunoitrc
+	]
+}
+
+Transform {
+	translation	0 4.15 20
+	children [
+	DEF	maunoit Shape {
+			geometry Box {
+				size 0.1 1 40
+			}
+		}
+	]
+}
+
+Transform {
+	translation	43.95 4.15 20
+	children [
+		USE	maunoit
+	]
+}
+
+Transform {
+	translation	0 1.1 0
+	children [
+		USE	ngantang
+	]
+}
+
+DEF tang1 Transform {
+	children [
+		# cot tru 
+		Transform {
+			translation	0.3 6.5 0.05
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	10.7 6.5 0.05
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	21.7 6.5 0.05
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	32.7 6.5 0.05
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	0.4 6.5 39.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	0.4 6.5 9.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	0.4 6.5 19.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	0.4 6.5 29.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	43.6 6.5 0.05
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	43.6 6.5 9.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	43.6 6.5 19.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	43.6 6.5 29.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	43.6 6.5 39.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	10.6 6.5 39.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	21.6 6.5 39.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	32.6 6.5 39.45
+			children [
+				Inline {
+					url	["cot.wrl"]
+				}
+			]
+		}
+
+		Transform {
+			translation	0 4.7 0
+			children [
+				USE	ngantang
+			]
+		}
+
+		#tuong tang 1
+		Transform {
+			translation	5.5 5.75 39.95
+			children [
+			DEF	tuong2mtrc Shape {
+					geometry Box {
+						size 11 2 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 .21 .25
+							specularColor 0 .21 .26
+							emissiveColor 0 .22 .26
+							ambientIntensity .04
+							shininess .32
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	16.5 5.75 39.95
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		Transform {
+			translation	27.5 5.75 39.95
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		Transform {
+			translation	38.5 5.75 39.95
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		#dangsau
+
+		Transform {
+			translation	5.5 5.75 0.05
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		Transform {
+			translation	16.5 5.75 0.05
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		Transform {
+			translation	27.5 5.75 0.05
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		Transform {
+			translation	38.5 5.75 0.05
+			children [
+				USE	tuong2mtrc
+			]
+		}
+
+		#tuong ben trai
+
+		Transform {
+			translation	0.05 5.75 4.7
+			rotation 0 1 0 1.57
+			children [
+				DEF	tuong2mbentrai Shape {
+					geometry Box {
+						size 9.4 2 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 .21 .25
+							specularColor 0 .21 .26
+							emissiveColor 0 .22 .26
+							ambientIntensity .04
+							shininess .32
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0.05 5.75 14.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		Transform {
+			translation	0.05 5.75 24.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		Transform {
+			translation	0.05 5.75 34.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		#benphai
+
+		Transform {
+			translation	43.95 5.75 4.75
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		Transform {
+			translation	43.95 5.75 14.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		Transform {
+			translation	43.95 5.75 24.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+
+		Transform {
+			translation	43.95 5.75 34.7
+			rotation 0 1 0 1.57
+			children [
+				USE	tuong2mbentrai
+			]
+		}
+		#kinhdangtrc
+		Transform {
+			translation	5.5 7.5 39.95
+			children [
+				Shape {
+					geometry Box {
+						size 9.4 1.5 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .29 .29 .29
+							specularColor 1 .94 .54
+							ambientIntensity 0 
+							shininess .83
+							emissiveColor .4 .4 .4
+							transparency .28
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	16.1 7.5 39.95
+			children [
+			DEF	kinhtrc Shape {
+					geometry Box {
+						size 10.2 1.5 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .29 .29 .29
+							specularColor 1 .94 .54
+							ambientIntensity 0 
+							shininess .83
+							emissiveColor .4 .4 .4
+							transparency .28
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	27.1 7.5 39.95
+			children [
+				USE	kinhtrc
+			]
+		}
+
+		Transform {
+			translation	38.1 7.5 39.95
+			children [
+				USE	kinhtrc
+			]
+		}
+
+		#kinhdangsau
+		Transform {
+			translation	5.5 7.5 0.05
+			children [
+				Shape {
+					geometry Box {
+						size 9.6 1.5 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .29 .29 .29
+							specularColor 1 .94 .54
+							ambientIntensity 0 
+							shininess .83
+							emissiveColor .4 .4 .4
+							transparency .28
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	16.2 7.5 0.05
+			children [
+			USE	kinhtrc
+			]
+		}
+
+		Transform {
+			translation	27.2 7.5 0.05
+			children [
+				USE	kinhtrc
+			]
+		}
+
+		Transform {
+			translation	38.2 7.5 0.05
+			children [
+				USE	kinhtrc
+			]
+		}
+
+		#kinhtrai
+
+		Transform {
+			translation	0.05 7.5 4.75
+			rotation 0 1 0 1.57
+			children [
+				DEF	kinhbentrai Shape {
+					geometry Box {
+						size 9.4 1.5 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .29 .29 .29
+							specularColor 1 .94 .54
+							emissiveColor .4 .4 .4
+							ambientIntensity 0
+							shininess .83
+							transparency .28
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0.05 7.5 14.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+
+		Transform {
+			translation	0.05 7.5 24.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+
+		Transform {
+			translation	0.05 7.5 34.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+
+		#kinhbenphai
+
+		Transform {
+			translation	43.95 7.5 5
+			rotation 0 1 0 1.57
+			children [
+				Shape {
+					geometry Box {
+						size 8.8 1.5 0.1
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .29 .29 .29
+							specularColor 1 .94 .54
+							emissiveColor .4 .4 .4
+							ambientIntensity 0
+							shininess .83
+							transparency .28
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	43.95 7.5 14.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+
+		Transform {
+			translation	43.95 7.5 24.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+
+		Transform {
+			translation	43.95 7.5 34.7
+			rotation 0 1 0 1.57
+			children [
+				USE	kinhbentrai
+			]
+		}
+	]
+}
+
+Transform {
+	translation	0 3.55 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 7.15 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 10.75 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 14.35 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 17.95 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 21.55 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 25.15 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {
+	translation	0 28.75 0
+	children [
+		USE	tang1
+	]
+}
+
+Transform {				 
+	translation	0.1 3.45 8.1
+	rotation 0 1 0 1.57
+	children [
+		Inline {
+			url	["cuaravao.wrl"]
+		}
+	]
+}
+
+Transform {				 
+	translation	42.35 3.45 39.9
+	children [
+		Inline {
+			url	["cuavao.wrl"]
 		}
 	]
 }

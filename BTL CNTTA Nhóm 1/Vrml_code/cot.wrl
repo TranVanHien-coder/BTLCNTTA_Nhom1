@@ -4,6 +4,15 @@ DEF cot Shape {
 	geometry Box {
 		size 0.6 3.5 0.1
 	}
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 .21 .25
+			specularColor 0 .21 .26
+			emissiveColor 0 .22 .26
+			ambientIntensity .04
+			shininess .32
+		}
+	}
 }
 
 Transform {

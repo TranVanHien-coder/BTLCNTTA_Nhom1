@@ -17,7 +17,7 @@ Transform {
 				}
 
 				texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					url "images\anhgach1.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
@@ -42,7 +42,7 @@ Transform {
 					shininess .07
 				}
 				texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					url "images\anhgach1.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
@@ -67,7 +67,7 @@ Transform {
 					shininess .07
 				}
 				texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					url "images\anhgach1.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
@@ -92,7 +92,7 @@ Transform {
 					shininess .07
 				}
 				texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					url "images\anhgach1.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
@@ -117,7 +117,7 @@ Transform {
 					shininess .07
 				}
 				texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhgach1.jpg"	
+					url "images\anhgach1.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 
