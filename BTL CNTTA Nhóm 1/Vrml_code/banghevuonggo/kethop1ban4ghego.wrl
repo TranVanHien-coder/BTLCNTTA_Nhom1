@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+
+DEF	bo1BanDon4GheGo Transform {
+	translation	0 0 0
+	rotation 0 1 0 0
+	children [
+		Inline {
+			url	["banghevuonggo\bango_ds.wrl"]
+		}
+		DEF	ghePbo1BanDon2GheGo Transform {
+			translation	 -0.3 -0.3  -0.8
+			
+			children [
+				Inline {
+					url	["banghevuonggo\ghe _ds.wrl"]
+				}
+			]
+		}
+		DEF	gheTbo1BanDon2GheGo Transform {
+			translation	 -0.3 -0.3   0.8
+			rotation 0 1 0 3.14
+			children [
+				Inline {
+					url	["banghevuonggo\ghe _ds.wrl"]
+				}
+			]
+		}
+			DEF	ghePbo1BanDon4GheGo Transform {
+			translation	 0.3 -0.3  -0.8
+			
+			children [
+				Inline {
+					url	["banghevuonggo\ghe _ds.wrl"]
+				}
+			]
+		}
+		DEF	gheTbo1BanDon4GheGo Transform {
+			translation	 0.3 -0.3   0.8
+			rotation 0 1 0 3.14
+			children [
+				Inline {
+					url	["banghevuonggo\ghe _ds.wrl"]
+				}
+			]
+		}
+
+	]
+}
