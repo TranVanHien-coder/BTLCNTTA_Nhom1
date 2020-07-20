@@ -12,7 +12,7 @@ DEF matdat Transform {
 						ambientIntensity 0
 					}
 					texture ImageTexture {	
-					url "E:\vrml\BTLCNTTA_Nhom1\BTL_CNTTA_Nhom1\Vrml_code\images\anhnendat.jpg"	
+					url "images\anhnendat.jpg"	
 					repeatS TRUE  
 					repeatT TRUE  
 				} 

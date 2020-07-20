@@ -1,0 +1,760 @@
+#VRML V2.0 utf8
+
+Inline {
+	url	["khungquancafe.wrl"]
+}
+Inline {
+	url	["ghepgiasach.wrl"]
+}
+Transform {
+	translation	44 0.1 0
+	scale 1.8 3 1.8
+	children [
+		Inline {
+			url	["sankhau.wrl"]
+		}
+	]
+}
+Transform {
+	translation	38 1.75 9
+	children [
+		Inline {
+			url	["cot.wrl"]
+		}
+	]
+}
+Transform {
+	translation	29 1.75 9
+	children [
+		Inline {
+			url	["cot.wrl"]
+		}
+	]
+}
+Transform {
+	translation	43 0.8 25
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 22.25
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 20
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 17.75
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 15.5
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 13.25
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 11
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 8.75
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	43 0.8 6.5
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	40.2 0.8 24.5
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	40.2 0.8 22.25
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	40.2 0.8 20
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	40.2 0.8 17.75
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38.6 0.8 24.5
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38.6 0.8 22.25
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38.6  0.8 20
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38.6  0.8 17.75
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	40.2  0.8 14.8
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	37.6  0.8 14.8
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	32.8 0.8 1.8
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	35.4 0.8 1.8
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38 0.8 1.8
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	32.8 0.8 4.6
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	35.4 0.8 4.6
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	38 0.8 4.6
+	rotation 0 1 0 1.57
+	children [
+	
+		Inline {  
+			url	["banghevuonggo/kethop3ban6ghe.wrl"]
+		}
+		]
+}
+Transform {
+	translation	39.2 0.8 10.5
+
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	39.2 0.8 9
+	
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	39.2  0.8 7.5
+
+	children [
+	
+		Inline {  
+			url	["kethop1ban4ghego.wrl"]
+		}
+		]
+}
+Transform {
+	translation	 35.5 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 33.5 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 31.25 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 29 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 26.75 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+ Transform {
+	translation	 24.5 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 22.25 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 20 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 17.75 0.8 11.1
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+
+Transform {
+	translation	 35.75 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 33.5 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 31.25 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+#Transform {
+#	translation	 29 0.8 9.5
+
+#	children [
+#		Inline {
+#			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+#		}
+#	]
+#}
+Transform {
+	translation	 26.75 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+ Transform {
+	translation	 24.5 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 22.25 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 20 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 17.75 0.8 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+#Transform {
+#	translation	 15.5 0.8 9.5
+
+#	children [
+#		Inline {
+#			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+#		}
+#	]
+#}
+
+Transform {
+	translation	 35.5 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 33.5 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 31.25 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 29 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 26.75 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+ Transform {
+	translation	 24.5 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 22.25 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 20 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 17.75 0.8 7.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+		}
+	]
+}
+#Transform {
+#	translation	 15.5 0.8 7.5
+
+#	children [
+#		Inline {
+#			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
+#		}
+#	]
+#}
+
+Transform {
+	translation	29 0.8 5
+	
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban2ghesofadai.wrl"]
+		}
+		]
+}
+Transform {
+	translation	26.25 0.8 5
+
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban2ghesofadai.wrl"]
+		}
+		]
+}
+Transform {
+	translation	23.5 0.8 5
+
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban2ghesofadai.wrl"]
+		}
+		]
+}
+Transform {
+	translation	20.75 0.8 5
+	
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban2ghesofadai.wrl"]
+		}
+		]
+}
+Transform {
+	translation	18 0.8 5
+
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban2ghesofadai.wrl"]
+		}
+		]
+}
+Transform {
+	translation	13.5 0.8 1.5
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+
+Transform {
+	translation	10.75 0.8 1.5
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	8 0.8 1.5
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	5.75 0.8 1.5
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	3 0.8 1.5
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	13.5 0.8 3
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+
+Transform {
+	translation	10.75 0.8 3
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	8 0.8 3
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	5.75 0.8 3
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	3 0.8 3
+	children [
+		Inline {
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+	]
+}
+Transform {
+	translation	17  0.8 14.25
+
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+		]
+}
+Transform {
+	translation	17  0.8 15.75
+
+	children [
+	
+		Inline {  
+			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+		}
+		]
+}
+
+
+#Transform {
+#	translation	13.5 0.8 8
+#	children [
+#		Inline {
+#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+#		}
+#	]
+#}
+
+#Transform {
+#	translation	10.75 0.8 8
+#	children [
+#		Inline {
+#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+#		}
+#	]
+#}
+#Transform {
+#	translation	8 0.8 8
+#	children [
+#		Inline {
+#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+#		}
+#	]
+#}
+#Transform {
+#	translation	5.75 0.8 8
+#	children [
+#		Inline {
+#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+#		}
+#	]
+#}
+#Transform {
+#	translation	3 0.8 8
+#	children [
+#		Inline {
+#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
+#		}
+#	]
+#}
+
+
+
+
+
