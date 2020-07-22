@@ -186,7 +186,14 @@ Transform {
 	DEF	tuongquaybar Shape {
 			 geometry Box {
 				size 2.8 1.5 0.1
-			} 
+			}
+			appearance Appearance {
+				texture ImageTexture {	
+					url "images\anhgach.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
 		}
 	]
 }
@@ -197,6 +204,13 @@ Transform {
 	DEF	tuongquaybar2 Shape {
 			 geometry Box {
 				size 0.1 1.5 4
+			}
+			appearance Appearance {
+				texture ImageTexture {	
+					url "images\anhgach.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
 			}
 		}
 	]
