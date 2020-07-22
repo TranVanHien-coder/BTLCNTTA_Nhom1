@@ -9,7 +9,7 @@ DEF	bo1BanDon2GheSF Transform {
 			url	["BT.wrl"]
 		}
 		DEF	ghePbo1BanDon2GheSF Transform {
-			translation	 -0.29 -0.3  -0.8
+			translation	 -0.29 0.3  -0.8
 			
 			children [
 				Inline {
@@ -18,7 +18,7 @@ DEF	bo1BanDon2GheSF Transform {
 			]
 		}
 		DEF	gheTbo1BanDon2GheSF Transform {
-			translation	 -0.29 -0.3   0.8
+			translation	 -0.29 0.3   0.8
 			rotation 0 1 0 3.14
 			children [
 				Inline {
@@ -27,7 +27,7 @@ DEF	bo1BanDon2GheSF Transform {
 			]
 		}
 			DEF	ghePbo1BanDon4GheSF Transform {
-			translation	 0.29 -0.3  -0.8
+			translation	 0.29 0.3  -0.8
 			
 			children [
 				Inline {
@@ -36,7 +36,7 @@ DEF	bo1BanDon2GheSF Transform {
 			]
 		}
 		DEF	gheTbo1BanDon4GheSF Transform {
-			translation	 0.29 -0.3   0.8
+			translation	 0.29 0.3   0.8
 			rotation 0 1 0 3.14
 			children [
 				Inline {

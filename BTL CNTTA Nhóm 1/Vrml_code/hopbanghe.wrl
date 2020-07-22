@@ -295,7 +295,7 @@ Transform {
 		]
 }
 Transform {
-	translation	 35.5 0.8 11.1
+	translation	 35.5 0.3 11.1
 
 	children [
 		Inline {
@@ -304,7 +304,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 33.5 0.8 11.1
+	translation	 33.5 0.3 11.1
 
 	children [
 		Inline {
@@ -313,7 +313,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 31.25 0.8 11.1
+	translation	 31.25 0.3 11.1
 
 	children [
 		Inline {
@@ -322,7 +322,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 29 0.8 11.1
+	translation	 29 0.3 11.1
 
 	children [
 		Inline {
@@ -331,89 +331,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 26.75 0.8 11.1
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
- Transform {
-	translation	 24.5 0.8 11.1
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 22.25 0.8 11.1
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 20 0.8 11.1
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 17.75 0.8 11.1
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-
-Transform {
-	translation	 35.75 0.8 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 33.5 0.8 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 31.25 0.8 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-#Transform {
-#	translation	 29 0.8 9.5
-
-#	children [
-#		Inline {
-#			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-#		}
-#	]
-#}
-Transform {
-	translation	 26.75 0.8 9.5
+	translation	 26.75 0.3 11.1
 
 	children [
 		Inline {
@@ -422,7 +340,7 @@ Transform {
 	]
 }
  Transform {
-	translation	 24.5 0.8 9.5
+	translation	 24.5 0.3 11.1
 
 	children [
 		Inline {
@@ -431,7 +349,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 22.25 0.8 9.5
+	translation	 22.25 0.3 11.1
 
 	children [
 		Inline {
@@ -440,7 +358,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 20 0.8 9.5
+	translation	 20 0.3 11.1
 
 	children [
 		Inline {
@@ -449,7 +367,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 17.75 0.8 9.5
+	translation	 17.75 0.3 11.1
 
 	children [
 		Inline {
@@ -457,18 +375,83 @@ Transform {
 		}
 	]
 }
-#Transform {
-#	translation	 15.5 0.8 9.5
-
-#	children [
-#		Inline {
-#			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-#		}
-#	]
-#}
 
 Transform {
-	translation	 35.5 0.8 7.5
+	translation	 35.75 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 33.5 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 31.25 0 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+
+Transform {
+	translation	 26.75 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+ Transform {
+	translation	 24.5 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 22.25 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 20 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation	 17.75 0.3 9.5
+
+	children [
+		Inline {
+			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+
+Transform {
+	translation	 35.5 0.3 7.5
 
 	children [
 		Inline {
@@ -477,7 +460,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 33.5 0.8 7.5
+	translation	 33.5 0.3 7.5
 
 	children [
 		Inline {
@@ -486,7 +469,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 31.25 0.8 7.5
+	translation	 31.25 0.3 7.5
 
 	children [
 		Inline {
@@ -495,7 +478,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 29 0.8 7.5
+	translation	 29 0.3 7.5
 
 	children [
 		Inline {
@@ -504,7 +487,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 26.75 0.8 7.5
+	translation	 26.75 0.3 7.5
 
 	children [
 		Inline {
@@ -513,7 +496,7 @@ Transform {
 	]
 }
  Transform {
-	translation	 24.5 0.8 7.5
+	translation	 24.5 0.3 7.5
 
 	children [
 		Inline {
@@ -522,7 +505,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 22.25 0.8 7.5
+	translation	 22.25 0.3 7.5
 
 	children [
 		Inline {
@@ -531,7 +514,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 20 0.8 7.5
+	translation	 20 0.3 7.5
 
 	children [
 		Inline {
@@ -540,7 +523,7 @@ Transform {
 	]
 }
 Transform {
-	translation	 17.75 0.8 7.5
+	translation	 17.75 0.3 7.5
 
 	children [
 		Inline {
@@ -548,15 +531,7 @@ Transform {
 		}
 	]
 }
-#Transform {
-#	translation	 15.5 0.8 7.5
 
-#	children [
-#		Inline {
-#			url	["banvuongtrutron/kethop1bantru4ghesofa.wrl"]
-#		}
-#	]
-#}
 
 Transform {
 	translation	29 0.8 5
