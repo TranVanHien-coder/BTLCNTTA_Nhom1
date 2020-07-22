@@ -1,9 +1,19 @@
 #VRML V2.0 utf8
 
+
+
 Transform {
 	children [
 		Inline {
-			url	["khungquancafe.wrl"]
+			url	["hopbanghe.wrl"]
+		}
+	]
+}
+Transform {
+	translation	-10 0 -10
+	children [
+		Inline {
+			url	["viahe/khung.wrl"]
 		}
 	]
 }

@@ -9,7 +9,8 @@ DEF matdat Transform {
 				}
 				appearance Appearance {
 					material Material {
-						ambientIntensity 0
+						emissiveColor 1 1 0.8
+						ambientIntensity 1
 					}
 					texture ImageTexture {	
 					url "images\anhnendat.jpg"	
@@ -31,11 +32,7 @@ Transform {
 			}
 			appearance Appearance {
 				material DEF mau Material {
-						diffuseColor 0 .21 .25
-						specularColor 0 .21 .26
-						ambientIntensity .04
-						shininess .32
-						emissiveColor 0 .22 .26
+						emissiveColor 0.38 0.38 0.38
 					}
 			}
 		}

@@ -3,7 +3,7 @@
 
 
 #phần đất xung quanh bao gồm cả vỉa hè + đường, rộng 10m
-Transform {
+DEF duoi Transform {
 	translation	32 0.75 5
 	children [
 		Shape {
@@ -19,8 +19,14 @@ Transform {
 			}
 	]
 }
-DEF ben Transform {
-	translation	5 0.75 35
+Transform {
+	translation	0 0 50
+	children [
+		USE	duoi
+	]
+}
+DEF benphai Transform {
+	translation	59 0.75 30
 	children [
 		Shape {
 			appearance Appearance {
@@ -31,18 +37,13 @@ DEF ben Transform {
 				shininess 1
 				}
 			}
-			geometry Box {size 10 1.5 50}
+			geometry Box {size 10 1.5 40}
 			}
 	]
 }
+
 Transform {
-	translation	54 0 0
-	children [
-		USE	ben
-	]
-}
-Transform {
-	translation	13.5 0.75 55
+	translation	5 0.75 13.25
 	children [
 		Shape {
 			appearance Appearance {
@@ -53,12 +54,12 @@ Transform {
 				shininess 1
 				}
 			}
-			geometry Box {size 7 1.5 10}
+			geometry Box {size 10 1.5 6.5}
 			}
 	]
 }
 Transform {
-	translation	37.1 0.75 55
+	translation	5 0.75 34.85
 	children [
 		Shape {
 			appearance Appearance {
@@ -69,12 +70,12 @@ Transform {
 				shininess 1
 				}
 			}
-			geometry Box {size 33.8 1.5 10}
+			geometry Box {size 10 1.5 30.3}
 			}
 	]
 }
 Transform {
-	translation	18.6 0.75 57.5
+	translation	2.5 0.75 18.1
 	children [
 		Shape {
 			appearance Appearance {
@@ -85,7 +86,7 @@ Transform {
 				shininess 1
 				}
 			}
-			geometry Box {size 3.2 1.5 5}
+			geometry Box {size 5 1.5 3.2}
 			}
 	]
 }
@@ -93,7 +94,7 @@ Transform {
 
 #phần đường
 DEF duong Transform {
-	translation	2.5 1.505 32.5
+	translation	2.5 1.505 30
 	children [
 		Shape {
 			appearance Appearance {
@@ -103,7 +104,7 @@ DEF duong Transform {
 					repeatT	TRUE
 				}
 			}
-			geometry Box {size 5 0.01 55}
+			geometry Box {size 5 0.01 50}
 		}
 	]
 }
@@ -123,7 +124,7 @@ Transform {
 					repeatT	TRUE
 				}
 			}
-			geometry Box {size 5 0.01 54}
+			geometry Box {size 5 0.01 64}
 		}
 	]
 }
@@ -145,7 +146,7 @@ Transform {
 }
 
 #via he:
- Transform {
+ DEF benduoi Transform {
 	translation	32 1.55 7.5
 	children [
 		Shape {
@@ -160,8 +161,13 @@ Transform {
 		}
 	]
 }
+Transform {
+	translation	0 0 45
+	children [USE benduoi ]
+}
+
 DEF viahe Transform {
-	translation	7.5 1.55 32.5
+	translation	56.5 1.55 30
 	rotation 0 1 0 1.57
 	children [
 		Shape {
@@ -172,18 +178,14 @@ DEF viahe Transform {
 					repeatT	TRUE
 				}
 			}
-			geometry Box {size 45 0.1 5}
+			geometry Box {size 40 0.1 5}
 		}
 	]
 
 
 }
 Transform {
-	translation	49 0 0
-	children [USE viahe]
-}
-Transform {
-	translation	13.5 1.55 52.5
+	translation	7.5 1.55 13.25
 	children [
 		Shape {
 			appearance Appearance {
@@ -193,12 +195,12 @@ Transform {
 					repeatT	TRUE
 				}
 			}
-			geometry Box {size 7 0.1 5}
+			geometry Box {size 5 0.1 6.5}
 			}
 	]
 }
 Transform {
-	translation	37.1 1.55 52.5
+	translation	7.5 1.55 34.85
 	children [
 		Shape {
 			appearance Appearance {
@@ -208,7 +210,25 @@ Transform {
 					repeatT	TRUE
 				}
 			}
-			geometry Box {size 33.8 0.1 5}
+			geometry Box {size 5 0.1 30.3}
 			}
 	]
 }
+
+#DEF	thuocngang Transform	{
+#	translation	32 2 9.5
+#	children [
+#		Shape {
+#			geometry Box {size 44 1 1}
+#		}
+#	]
+#}
+#DEF	thuocdoc Transform	{
+#	translation	9.5 2 30
+#	children [
+#		Shape {
+#			geometry Box {size 1 1 40}
+#		}
+#	]
+#}
+
