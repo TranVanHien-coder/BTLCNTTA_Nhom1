@@ -16,18 +16,18 @@ Transform {
 	]
 }
 Transform {
-	translation	38 1.75 9
+	translation	38 0.1 9
 	children [
 		Inline {
-			url	["cot.wrl"]
+			url	["cotgiasach.wrl"]
 		}
 	]
 }
 Transform {
-	translation	29 1.75 9
+	translation	29 0.1 9
 	children [
 		Inline {
-			url	["cot.wrl"]
+			url	["cotgiasach.wrl"]
 		}
 	]
 }

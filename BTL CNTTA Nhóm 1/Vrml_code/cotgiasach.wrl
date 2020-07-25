@@ -1,0 +1,62 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	0.3 1.75 0.3
+	children [
+		Shape {
+			geometry Box {size 0.6 3.5 0.6}
+			appearance Appearance {
+				material Material {
+					diffuseColor .23 .2 .43
+					specularColor .32 .4 .4
+					ambientIntensity .0733
+					shininess .54
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	0 0 0.6
+	children [
+		  Inline {
+			url	["giasach/giasach0.6m.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.6 0 0.6
+	rotation 0 1 0 1.57
+	children [
+		  Inline {
+			url	["giasach/giasach0.6m.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0 0 0
+	rotation 0 1 0 -1.57
+	children [
+		  Inline {
+			url	["giasach/giasach0.6m.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+
+Transform {
+	translation	0.6 0 0
+	rotation 0 1 0 3.14
+	children [
+		  Inline {
+			url	["giasach/giasach0.6m.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}

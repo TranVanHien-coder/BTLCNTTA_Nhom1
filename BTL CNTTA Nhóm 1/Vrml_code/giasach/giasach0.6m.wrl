@@ -1,0 +1,143 @@
+#VRML V2.0 utf8
+
+DEF bangsau Transform {
+	translation	0.3 1.6 0.01
+	children [
+		 Shape {
+			geometry Box {size 0.6 3.2 0.02}
+			appearance Appearance {
+				texture ImageTexture {
+					url	"sach\maugo.jpg"
+					repeatS	TRUE
+					repeatT	TRUE
+				}
+			}
+		}
+	]
+}
+DEF ngang1 Transform {
+	translation	0.3 0.01 0.11
+	children [
+		 Shape {
+			geometry Box {size 0.6 0.02 0.2}
+			appearance Appearance {
+				texture ImageTexture {
+					url	"sach\maugo.jpg"
+					repeatS	TRUE
+					repeatT	TRUE
+				}
+			}
+		}
+	]
+}
+DEF	ngang2 Transform {
+	translation	0 0.4 0
+	children [USE ngang1]
+}
+DEF	ngang3 Transform {
+	translation	0 0.8 0
+	children [USE ngang1]
+}
+DEF	ngang4 Transform {
+	translation	0 1.2 0
+	children [USE ngang1]
+}
+DEF	ngang5 Transform {
+	translation	0 1.6 0
+	children [USE ngang1]
+}
+DEF	ngang6 Transform {
+	translation	0 2.0 0
+	children [USE ngang1]
+}
+DEF	ngang7 Transform {
+	translation	0 2.4 0
+	children [USE ngang1]
+}
+DEF	ngang8 Transform {
+	translation	0 2.8 0
+	children [USE ngang1]
+}
+DEF	ngang9 Transform {
+	translation	0 3.18 0
+	children [USE ngang1]
+}
+#DEF doc1 Transform {
+#	translation	0.0 1.6 0.11
+#	children [
+#		 Shape {
+#			geometry Box {size 0.02 3.2 0.2}
+#			appearance Appearance {
+#				texture ImageTexture {
+#					url	"sach\maugo.jpg"
+#					repeatS	TRUE
+#					repeatT	TRUE
+#				}
+#			}
+#		}
+#	]
+#}
+#DEF	doc2 Transform {
+#	translation	1 0 0
+#	children [USE doc1]
+#}
+Transform {
+	translation	0.1 0.47 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen3.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.1 0.87 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen5.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.1 1.27 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen4.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.1 1.67 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen3.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.1 2.07 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen2.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.1 2.47 0.1
+	children [
+		  Inline {
+			url	["sach/3quyen1.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
