@@ -83,28 +83,14 @@ Transform {
 												size 0.775 2 0.01
 											}
 										}
-										DEF	taycamT Transform {
-											translation	0.2 0 0
-											scale .2 .2 .2
+										DEF	taycam Transform {
+											translation	0.2 0 -0.225
+											scale 2.4 3.4 2.4
 											children [
-												DEF veTayCam Shape {
-													geometry Extrusion {
-														creaseAngle	1
-														solid FALSE
-														crossSection [1 1, 1 -1, -1 -1, -1 1, 1 1]
-														spine [-0.5 0 -0.5, 0.5 0 -0.5,0.5 0 0.5,-0.5 0 0.5]
-														scale [.1 .1, .1 .1, .1 .1,.1 .1]
-													}
-													appearance Appearance {
-														material Material {
-															diffuseColor .09 .03 0
-															specularColor .22 .1 .1
-															ambientIntensity .01
-															shininess .05
-														}
-													}
+												Inline {
+													url	["taynamcua.wrl"]
 												}
-											]
+											]	
 										}
 									]
 	
@@ -134,10 +120,8 @@ Transform {
 									children [
 										USE vecua 
 										Transform {
-											translation	-0.2 0 0
-											scale .2 .2 .2
-											rotation 0 1 0 3.14
-											children [USE veTayCam ]
+											translation	-0.4 0 0
+											children [USE taycam ]
 										}
 									]
 								}

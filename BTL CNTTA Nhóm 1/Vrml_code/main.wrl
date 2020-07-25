@@ -17,3 +17,13 @@ Transform {
 		}
 	]
 }
+
+Transform {
+	children [
+		Inline {
+			url	["ghepden.wrl"]
+		}
+	]
+}
+
+

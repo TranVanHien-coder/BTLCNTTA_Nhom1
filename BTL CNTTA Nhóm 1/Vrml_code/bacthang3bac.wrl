@@ -5,7 +5,7 @@ Transform {
 	children [
 		Shape {
 			geometry Box {
-				size 3.2 0.3 3
+				size 3.2 0.3 1
 			}
 			appearance Appearance {
 				material Material {
@@ -31,7 +31,32 @@ Transform {
 	children [
 		  Shape {
 			geometry Box {
-				size 3.2 0.3 2.7
+				size 3.2 0.3 0.7
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .53 .14 .01
+					specularColor .34 .05 .05
+					emissiveColor .3 .05 .05
+					ambientIntensity .0367
+					shininess .07
+				}
+				texture ImageTexture {	
+					url "images\anhgach1.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+		}
+	]
+}
+
+Transform {
+	translation	1.6 0.6 0.2
+	children [
+		  Shape {
+			geometry Box {
+				size 3.2 0.3 0.4
 			}
 			appearance Appearance {
 				material Material {
