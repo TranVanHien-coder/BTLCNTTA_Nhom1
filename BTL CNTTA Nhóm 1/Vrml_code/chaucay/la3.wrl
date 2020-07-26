@@ -1,0 +1,311 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		DEF la3 Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+			}
+			geometry Extrusion {
+				crossSection [
+    1.00	0.00
+0.98	0.20
+0.92	0.38
+0.83	0.56
+0.71	0.71
+0.56	0.83
+0.38	0.92
+0.20	0.98
+0.00	1.00
+-0.20	0.98
+-0.38	0.92
+-0.56	0.83
+-0.71	0.71
+-0.83	0.56
+-0.92	0.38
+-0.98	0.20
+-1.00	0.00
+-0.98	-0.20
+-0.92	-0.38
+-0.83	-0.56
+-0.71	-0.71
+-0.56	-0.83
+-0.38	-0.92
+-0.20	-0.98
+0.00	-1.00
+0.20	-0.98
+0.38	-0.92
+0.56	-0.83
+0.71	-0.71
+0.83	-0.56
+0.92	-0.38
+0.98	-0.20
+1.00	0.00
+ 
+	]
+	spine [	  					0.015	0.03	0
+0.0267		0.04	0
+0.0417		0.05	0
+0.06		0.06	0
+0.082		0.07	0
+0.1067		0.08	0
+0.135		0.09	0
+0.1667		0.1		0
+0.202		0.11	0
+0.24		0.12	0
+0.282		0.13	0
+	]
+	scale [	0.009	0.001
+		0.008	0.001
+0.007	0.001
+0.0065	0.001
+0.006	0.001
+0.005	0.001
+0.004	0.001
+0.003	0.001
+0.002	0.001
+0.001	0.001
+
+0	0
+	]
+				}
+		}
+	]
+}
+Transform {
+	translation	-0.071 0 0
+	rotation 0 1 0 3.14
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.06 0 0
+	rotation 0 1 0 0.55
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.06 0 0
+	rotation 0 1 0 0.785
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.06 0 0
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.085 0 0
+	rotation 0 1 0 0.185
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.06 0 0
+	rotation 0 1 0 3.55
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.06 0 -0.05
+	rotation 0 1 0 4.55
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.085 0 -0.05
+	rotation 0 1 0 4.55
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.075 0 -0.075
+	rotation 0 1 0 4.55
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.055 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.035 0 -0.05
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.040 0 -0.05
+	rotation 0 1 0 1.257
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.045 0 -0.05
+	rotation 0 1 0 3.357
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	-0.055 0 -0.05
+	rotation 0 1 0 4.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.025 0 -0.015
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.030 0 -0.025
+	rotation 0 1 0 4.257
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.035 0 -0.035
+	rotation 0 1 0 1.357
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.040 0 -0.045
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.0085 0 -0.015
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.00950 0 -0.025
+	rotation 0 1 0 1.257
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.0095 0 -0.035
+	rotation 0 1 0 4.357
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.02 0 -0.045
+	rotation 0 1 0 1.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.006 0 0.015
+	rotation 0 1 0 -4.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.003 0 0.025
+	rotation 0 1 0 -1.257
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.0045 0 0.035
+	rotation 0 1 0 -1.357
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.003 0 0.045
+	rotation 0 1 0 -3.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 -0.015
+	rotation 0 1 0 3.57
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 -0.025
+	rotation 0 1 0 3.257
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 -0.035
+	rotation 0 1 0 3.357
+	children [
+		USE	la3
+	]
+}
+Transform {
+	translation	0.01 0 -0.045
+	rotation 0 1 0 4.57
+	children [
+		USE	la3
+	]
+}
+

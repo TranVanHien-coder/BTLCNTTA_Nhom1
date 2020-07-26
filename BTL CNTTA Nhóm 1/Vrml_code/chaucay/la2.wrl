@@ -1,0 +1,310 @@
+#VRML V2.0 utf8
+ Transform {
+	children [
+		DEF la2 Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+			}
+			geometry Extrusion {
+				crossSection [
+    1.00	0.00
+0.98	0.20
+0.92	0.38
+0.83	0.56
+0.71	0.71
+0.56	0.83
+0.38	0.92
+0.20	0.98
+0.00	1.00
+-0.20	0.98
+-0.38	0.92
+-0.56	0.83
+-0.71	0.71
+-0.83	0.56
+-0.92	0.38
+-0.98	0.20
+-1.00	0.00
+-0.98	-0.20
+-0.92	-0.38
+-0.83	-0.56
+-0.71	-0.71
+-0.56	-0.83
+-0.38	-0.92
+-0.20	-0.98
+0.00	-1.00
+0.20	-0.98
+0.38	-0.92
+0.56	-0.83
+0.71	-0.71
+0.83	-0.56
+0.92	-0.38
+0.98	-0.20
+1.00	0.00
+ 
+	]
+	spine [	  					0.00375	0.05	0
+0.00735		0.07	0
+0.01215		0.09	0
+0.01815		0.11	0
+0.0216		0.12	0
+0.02535		0.13	0
+0.03375		0.15	0
+0.04335		0.17	0
+0.05415		0.19	0
+0.06615		0.21	0
+0.07935		0.23	0
+	]
+	scale [	0.009	0.001
+		0.008	0.001
+0.007	0.001
+0.0065	0.001
+0.006	0.001
+0.005	0.001
+0.004	0.001
+0.003	0.001
+0.002	0.001
+0.001	0.001
+
+0	0
+	]
+				}
+		}
+	]
+}
+Transform {
+	translation	-0.061 0 0
+	rotation 0 1 0 3.14
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.05 0 0
+	rotation 0 1 0 0.55
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.05 0 0
+	rotation 0 1 0 0.785
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.05 0 0
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.075 0 0
+	rotation 0 1 0 0.185
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.05 0 0
+	rotation 0 1 0 3.55
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.05 0 -0.05
+	rotation 0 1 0 4.55
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.075 0 -0.05
+	rotation 0 1 0 4.55
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.065 0 -0.075
+	rotation 0 1 0 4.55
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.045 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 0.025
+	rotation 0 1 0 -1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.025 0 -0.05
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.030 0 -0.05
+	rotation 0 1 0 1.257
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.035 0 -0.05
+	rotation 0 1 0 3.357
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	-0.045 0 -0.05
+	rotation 0 1 0 4.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.015 0 -0.015
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.020 0 -0.025
+	rotation 0 1 0 4.257
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.025 0 -0.035
+	rotation 0 1 0 1.357
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.030 0 -0.045
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.0075 0 -0.015
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.00850 0 -0.025
+	rotation 0 1 0 1.257
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.0095 0 -0.035
+	rotation 0 1 0 4.357
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.01 0 -0.045
+	rotation 0 1 0 1.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.005 0 0.015
+	rotation 0 1 0 -4.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.002 0 0.025
+	rotation 0 1 0 -1.257
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.0035 0 0.035
+	rotation 0 1 0 -1.357
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0.001 0 0.045
+	rotation 0 1 0 -3.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 -0.015
+	rotation 0 1 0 3.57
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 -0.025
+	rotation 0 1 0 3.257
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 -0.035
+	rotation 0 1 0 3.357
+	children [
+		USE	la2
+	]
+}
+Transform {
+	translation	0 0 -0.045
+	rotation 0 1 0 4.57
+	children [
+		USE	la2
+	]
+}
+
