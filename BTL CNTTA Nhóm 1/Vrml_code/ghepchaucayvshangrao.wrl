@@ -1,0 +1,33 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Inline {
+			url	"Hangrao.wrl"
+		}
+	]
+}
+Transform {
+	translation	-0.5 0 0
+	children [
+		Inline {
+			url	"chaucay\chauhoa.wrl"
+		}
+	]
+}
+Transform {
+	translation	0.5 0 0
+	children [
+		Inline {
+			url	"chaucay\chauhoa.wrl"
+		}
+	]
+}
+Transform {
+	translation	0 0 0
+	children [
+		Inline {
+			url	"chaucay\chauhoa.wrl"
+		}
+	]
+}
