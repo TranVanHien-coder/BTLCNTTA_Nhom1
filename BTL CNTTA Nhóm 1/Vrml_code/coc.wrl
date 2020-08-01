@@ -1,2 +1,148 @@
 #VRML V2.0 utf8
 
+Shape {
+	geometry Extrusion {
+		crossSection [
+			0.4552	0.8904
+0.3658	0.9307
+0.2728	0.9621
+0.1772	0.9842
+0.0798	0.9968
+-0.0183	0.9998
+-0.1162	0.9932
+-0.2130	0.9771
+-0.3077	0.9515
+-0.3995	0.9167
+-0.4874	0.8732
+-0.5707	0.8212
+-0.6484	0.7613
+-0.7199	0.6941
+-0.7845	0.6202
+-0.8415	0.5403
+-0.8904	0.4552
+-0.9307	0.3658
+-0.9621	0.2728
+-0.9842	0.1772
+-0.9968	0.0798
+-0.9998	-0.0183
+-0.9932	-0.1162
+-0.9771	-0.2130
+-0.9515	-0.3077
+-0.9167	-0.3995
+-0.8732	-0.4874
+-0.8212	-0.5707
+-0.7613	-0.6484
+-0.6941	-0.7199
+-0.6202	-0.7845
+-0.5403	-0.8415
+-0.4552	-0.8904
+-0.3658	-0.9307
+-0.2728	-0.9621
+-0.1772	-0.9842
+-0.0798	-0.9968
+0.0183	-0.9998
+0.1162	-0.9932
+0.2130	-0.9771
+0.3077	-0.9515
+0.3995	-0.9167
+0.4874	-0.8732
+0.5707	-0.8212
+0.6484	-0.7613
+0.7199	-0.6941
+0.7845	-0.6202
+0.8415	-0.5403
+0.8904	-0.4552
+0.9307	-0.3658
+0.9621	-0.2728
+0.9842	-0.1772
+0.9968	-0.0798
+0.9998	0.0183
+0.9932	0.1162
+0.9771	0.2130
+0.9515	0.3077
+0.9167	0.3995
+0.8732	0.4874
+0.8212	0.5707
+0.7613	0.6484
+0.6941	0.7199
+0.6202	0.7845
+0.5403	0.8415
+0.4552	0.8904
+
+		]
+
+		solid FALSE
+
+		spine [
+			0 0.1 0
+			0 0 0 
+		]
+
+		scale [
+			0.02 0.02
+			0.02 0.02
+		]
+	}
+	appearance Appearance {
+		material Material {
+			diffuseColor .29 .29 .29
+			specularColor 1 .94 .54
+			emissiveColor .4 .4 .4
+			ambientIntensity 0
+			shininess .83
+			transparency .28
+		}
+	}
+}
+
+DEF day Transform {
+	children [
+		Shape {
+			geometry Cylinder {
+				height 0.01
+				radius 0.02
+				bottom TRUE
+				top	TRUE 
+				side TRUE
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .61 .61 .61
+					specularColor .77 .76 .76
+					ambientIntensity .14
+					shininess .9
+				}
+			}
+		}
+	]
+}
+
+DEF	nuoc Transform {
+	translation	0 0.03 0
+	children [
+		Shape {
+			geometry Cylinder {
+				height 0.05
+				radius 0.01975
+				bottom TRUE
+				top	TRUE 
+				side TRUE
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .58 .27 .01
+					specularColor .43 .2 0
+					ambientIntensity .0733
+					shininess .07
+				}
+
+				texture ImageTexture {	
+					url "images\coffee.jpg"	
+					repeatS TRUE  
+					repeatT TRUE  
+				} 
+			}
+		}
+	]
+}
+
