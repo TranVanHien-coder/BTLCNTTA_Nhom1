@@ -1,0 +1,337 @@
+#VRML V2.0 utf8
+
+
+
+
+DEF	phanquay Transform {
+	children [
+		Transform{
+			translation	0 -0.055 0
+			rotation 1 0 0 3.14
+			children[
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0 0 0
+							specularColor .29 .3 .29
+							ambientIntensity 0
+							shininess .08
+						}
+					} 
+					geometry Cone	{bottomRadius 0.03, height 0.01}
+				}
+
+				DEF	canhquat Transform {
+	translation	0 -0.0045 0
+	rotation 1 0 0 1.57
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .24 .24 .24
+					specularColor .3 .25 .3
+					ambientIntensity .06
+					shininess .05
+				}
+			
+			}
+			geometry Extrusion {
+				crossSection [0.498362464	0.866968774
+					0.455222023	0.890377959
+					0.410984912	0.911642146
+					0.365757703	0.930710107
+					0.319649352	0.947535905
+					0.272770937	0.962079007
+					0.225235393	0.974304376
+					0.177157237	0.984182561
+					0.128652294	0.991689764
+					0.079837416	0.996807899
+					0.030830203	0.999524636
+					-0.018251282	0.999833431
+					-0.067288799	0.99773354
+					-0.116164211	0.993230022
+					-0.164759774	0.986333725
+					-0.212958415	0.977061264
+					-0.260644021	0.965434977
+					-0.307701713	0.951482872
+					-0.354018125	0.935238562
+					-0.399481676	0.91674118
+					-0.44398284	0.896035288
+					-0.487414411	0.873170769
+					-0.529671758	0.848202705
+					-0.570653079	0.821191246
+					-0.610259647	0.792201466
+					-0.648396046	0.761303203
+					-0.684970402	0.728570894
+					-0.719894605	0.694083394
+					-0.753084518	0.657923786
+					-0.784460185	0.620179182
+					-0.813946019	0.580940512
+					-0.841470985	0.540302306
+					-0.866968774	0.498362464
+					-0.890377959	0.455222023
+					-0.911642146	0.410984912
+					-0.930710107	0.365757703
+					-0.947535905	0.319649352
+					-0.962079007	0.272770937
+					-0.974304376	0.225235393
+					-0.984182561	0.177157237
+					-0.991689764	0.128652294
+					-0.996807899	0.079837416
+					-0.999524636	0.030830203
+					-0.999833431	-0.018251282
+					-0.99773354	-0.067288799
+					-0.993230022	-0.116164211
+					-0.986333725	-0.164759774
+					-0.977061264	-0.212958415
+					-0.965434977	-0.260644021
+					-0.951482872	-0.307701713
+					-0.935238562	-0.354018125
+					-0.91674118	-0.399481676
+					-0.896035288	-0.44398284
+					-0.873170769	-0.487414411
+					-0.848202705	-0.529671758
+					-0.821191246	-0.570653079
+					-0.792201466	-0.610259647
+					-0.761303203	-0.648396046
+					-0.728570894	-0.684970402
+					-0.694083394	-0.719894605
+					-0.657923786	-0.753084518
+					-0.620179182	-0.784460185
+					-0.580940512	-0.813946019
+					-0.540302306	-0.841470985
+					-0.498362464	-0.866968774
+					-0.455222023	-0.890377959
+					-0.410984912	-0.911642146
+					-0.365757703	-0.930710107
+					-0.319649352	-0.947535905
+					-0.272770937	-0.962079007
+					-0.225235393	-0.974304376
+					-0.177157237	-0.984182561
+					-0.128652294	-0.991689764
+					-0.079837416	-0.996807899
+					-0.030830203	-0.999524636
+					0.018251282	-0.999833431
+					0.067288799	-0.99773354
+					0.116164211	-0.993230022
+					0.164759774	-0.986333725
+					0.212958415	-0.977061264
+					0.260644021	-0.965434977
+					0.307701713	-0.951482872
+					0.354018125	-0.935238562
+					0.399481676	-0.91674118
+					0.44398284	-0.896035288
+					0.487414411	-0.873170769
+					0.529671758	-0.848202705
+					0.570653079	-0.821191246
+					0.610259647	-0.792201466
+					0.648396046	-0.761303203
+					0.684970402	-0.728570894
+					0.719894605	-0.694083394
+					0.753084518	-0.657923786
+					0.784460185	-0.620179182
+					0.813946019	-0.580940512
+					0.841470985	-0.540302306
+					0.866968774	-0.498362464
+					0.890377959	-0.455222023
+					0.911642146	-0.410984912
+					0.930710107	-0.365757703
+					0.947535905	-0.319649352
+					0.962079007	-0.272770937
+					0.974304376	-0.225235393
+					0.984182561	-0.177157237
+					0.991689764	-0.128652294
+					0.996807899	-0.079837416
+					0.999524636	-0.030830203
+					0.999833431	0.018251282
+					0.99773354	0.067288799
+					0.993230022	0.116164211
+					0.986333725	0.164759774
+					0.977061264	0.212958415
+					0.965434977	0.260644021
+					0.951482872	0.307701713
+					0.935238562	0.354018125
+					0.91674118	0.399481676
+					0.896035288	0.44398284
+					0.873170769	0.487414411
+					0.848202705	0.529671758
+					0.821191246	0.570653079
+					0.792201466	0.610259647
+					0.761303203	0.648396046
+					0.728570894	0.684970402
+					0.694083394	0.719894605
+					0.657923786	0.753084518
+					0.620179182	0.784460185
+					0.580940512	0.813946019
+					0.540302306	0.841470985
+					0.498362464	0.866968774]
+				spine [0 0 0
+				0 0.1 0
+				0 0.11 0
+				0 0.12 0
+				0 0.13 0
+				0 0.14 0
+				0 0.15 0]
+				scale [0.025 0.001,
+				0.048 0.001,
+				0.046 0.001 ,
+				0.039 0.001	,
+				0.029 0.001	 ,
+				0.018 0.001,
+				0.005 0.001]
+				solid FALSE
+			}
+		}
+	]
+}
+				Transform
+				{
+					translation 0 0 0
+					rotation 0 1 0 2.092
+				    children 
+					[
+						Transform 
+						{
+							
+							children 
+							[
+								USE canhquat 
+							]
+						}
+					]
+				}
+				
+				Transform
+				{
+					translation 0 0 0
+					rotation 0 1 0 -2.092
+				    children 
+					[
+						Transform 
+						{
+							children 
+							[
+								USE	canhquat
+							]
+						}
+					]
+				}
+			
+
+			]
+		}
+	]
+}
+
+DEF up Transform{
+	translation	0 -0.015 0
+	children[
+		 Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .25 .24
+
+				}
+			}
+			geometry Cylinder {height 0.005 radius 0.001}
+		}
+	]
+}
+
+Transform
+{
+	translation	0 -0.005 0
+	children
+	[
+		Shape {appearance Appearance {
+				material Material {
+					ambientIntensity 0
+					shininess 0
+				}
+			}geometry Cylinder {height 0.01 radius 0.03}}
+	]
+}
+Transform
+{
+	translation	0 -0.03 0
+	children
+	[
+		Shape {appearance Appearance {
+				material Material {
+					ambientIntensity .0933
+					shininess .93
+					diffuseColor .38 .38 .42
+					specularColor .53 .53 .53
+				}
+			}geometry Cylinder {height 0.03 radius 0.02}}
+	]
+}
+
+Transform
+{
+	translation	0 -0.03 0
+	
+	children [USE up]
+}
+
+
+
+DEF	touch TouchSensor{}
+DEF	timer1 TimeSensor {
+	cycleInterval 0.1
+	loop FALSE
+	enabled	FALSE
+}
+DEF	timer2 TimeSensor {
+	cycleInterval 1
+	loop TRUE
+	enabled	FALSE
+}
+DEF	timer TimeSensor {
+	cycleInterval 0.1
+	loop FALSE
+	enabled	FALSE
+}
+DEF	control Script {
+	eventIn	SFBool turn
+	eventOut SFBool	on
+	eventOut SFBool	off
+	field SFBool x TRUE
+	url	"javascript:
+	function turn(val){
+		if(val){
+			if(x){
+				on = true;
+				off = false
+			}else{
+				on = false;
+				off = true;
+			}
+			x=!x;
+		}
+	}
+	"
+}
+DEF	oInterC1 OrientationInterpolator	{
+	key[0.5 1]
+	keyValue [0 0 1 1.57, 0 0 1 0]
+}
+DEF	oInterC OrientationInterpolator {
+	key	[0 1]
+	keyValue [0 0 1 0,0 0 1 1.57]
+}
+DEF	oInterQ OrientationInterpolator {
+	key	[0 0.5 1]
+	keyValue [0 1 0 0,0 1 0 3.14,0 1 0 6.28]
+}
+ROUTE touch.isActive TO	control.turn
+ROUTE control.on TO	timer1.enabled
+ROUTE control.on TO	timer2.enabled
+ROUTE control.off TO timer.enabled
+ROUTE touch.touchTime TO timer2.startTime
+ROUTE touch.touchTime TO timer.startTime
+ROUTE touch.touchTime TO timer1.startTime
+ROUTE timer2.fraction_changed TO oInterQ.set_fraction
+ROUTE oInterQ.value_changed	TO phanquay.rotation
+ROUTE timer1.fraction_changed TO	oInterC.set_fraction
+ROUTE timer.fraction_changed TO oInterC1.set_fraction
