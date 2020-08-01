@@ -26,4 +26,74 @@ Transform {
 	]
 }
 
+Transform {
+	translation	41.65 1.75 10
+	scale 0.25 0.25 0.25
+	children [
+	DEF	nhanvien Transform {
+			children [
+				Inline {
+					url	["nhanviendilai.wrl"]
+				}
+			]
+		}
+
+		DEF	time1 TimeSensor {
+			enabled	TRUE
+			cycleInterval 5
+			loop TRUE
+		}
+
+		DEF	dichuyen PositionInterpolator {
+			key	[0, 0.45, 0.5, 0.95,1]
+			keyValue [0 0 10, 0 0 60,0 0 60, 0 0 10, 0 0 10]
+		}
+
+		DEF	quaynguoi OrientationInterpolator {
+			key	[0 0.45 0.5 0.95 1]
+			keyValue [0 1 0 0, 0 1 0 0 , 0 1 0 3.14,0 1 0 3.14,0 1 0 -3.14]
+		}
+	]
+
+	ROUTE time1.fraction_changed TO	dichuyen.set_fraction
+	ROUTE dichuyen.value_changed TO	nhanvien.translation
+	ROUTE time1.fraction_changed TO	quaynguoi.set_fraction
+	ROUTE quaynguoi.value_changed TO nhanvien.rotation
+}
+
+Transform {
+	translation	18 1.75 6.35
+	scale 0.25 0.25 0.25
+	children [
+	DEF	nhanvien2 Transform {
+			children [
+				Inline {
+					url	["nhanviendilai.wrl"]
+				}
+			]
+		}
+
+		DEF	time2 TimeSensor {
+			enabled	TRUE
+			cycleInterval 10
+			loop TRUE
+		}
+
+		DEF	dichuyen2 PositionInterpolator {
+			key	[0, 0.45, 0.5, 0.95,1]
+			keyValue [10 0 0, 60 0 0,60 0 0, 10 0 0, 10 0 0]
+		}
+
+		DEF	quaynguoi2 OrientationInterpolator {
+			key	[0 0.45 0.5 0.95 1]
+			keyValue [0 1 0 1.57, 0 1 0 1.57 , 0 1 0 -1.57,0 1 0 -1.57,0 1 0 1.57]
+		}
+	]
+
+	ROUTE time2.fraction_changed TO	dichuyen2.set_fraction
+	ROUTE dichuyen2.value_changed TO nhanvien2.translation
+	ROUTE time2.fraction_changed TO	quaynguoi2.set_fraction
+	ROUTE quaynguoi2.value_changed TO nhanvien2.rotation
+}				   
+
 
