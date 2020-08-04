@@ -1,0 +1,84 @@
+#VRML V2.0 utf8
+
+DEF thanchai Shape {
+	appearance Appearance {
+			texture	ImageTexture {
+					url	"images\pepsi.png"
+				}
+	}
+	geometry Extrusion {
+		crossSection [
+			1.00	0.00
+0.92	0.38
+0.71	0.71
+0.38	0.92
+0.00	1.00
+-0.38	0.92
+-0.71	0.71
+-0.92	0.38
+-1.00	0.00
+-0.92	-0.38
+-0.71	-0.71
+-0.38	-0.92
+0.00	-1.00
+0.38	-0.92
+0.71	-0.71
+0.92	-0.38
+1.00	0.00
+
+		]
+		spine [0 0.15 0 , 0 0 0 , 0 0.15 0 , 0 0.6 0, 0 0.75 0, 0 0.95 0, 0 1.1 0, 0 1.7 0, 0 2 0, 0 2.2 0 ]
+		scale [0 0, 0.2 0.2, 0.3 0.3, 0.3 0.3, 0.26 0.26, 0.27 0.27, 0.3 0.3, 0.3 0.3, 0.12 0.12, 0.12 0.12 ]
+		solid TRUE
+		creaseAngle	1
+		beginCap TRUE
+		endCap TRUE
+	}
+}
+
+		DEF	napchai Transform {
+			translation	0 2.35 0
+			rotation -1 0 0 3.14
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF mau Material {
+							diffuseColor 0 .48 .8
+							specularColor .5 .5 .5
+							emissiveColor 0 .09 .15
+							ambientIntensity 0
+						}
+					}
+					geometry Extrusion {
+						crossSection [
+							 1.00	0.00
+0.92	0.38
+0.71	0.71
+0.38	0.92
+0.00	1.00
+-0.38	0.92
+-0.71	0.71
+-0.92	0.38
+-1.00	0.00
+-0.92	-0.38
+-0.71	-0.71
+-0.38	-0.92
+0.00	-1.00
+0.38	-0.92
+0.71	-0.71
+0.92	-0.38
+1.00	0.00
+
+						]
+						spine [ 0 0.1 0, 0 0.2 0]
+						scale [0.13 0.13, 0.13 0.13]
+						solid FALSE
+						creaseAngle	1
+						beginCap TRUE
+						endCap FALSE
+					}
+				}
+				
+			]
+		}
+	

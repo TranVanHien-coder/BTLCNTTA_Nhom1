@@ -1,0 +1,186 @@
+#VRML V2.0 utf8
+
+  DEF	khung Transform {
+	translation	0 0 0
+	children [
+		Shape {
+			appearance Appearance {
+				material DEF mau Material {
+					diffuseColor .24 .24 .24
+					specularColor .3 .25 .3
+					ambientIntensity .06
+					shininess .05
+				}
+			}
+			geometry Box {size 0.6 0.5 0.03}
+		}
+		DEF manhinh Transform {
+			translation	0 0 0.005
+			children [
+	    Shape {
+			appearance Appearance {
+				material DEF mau1 Material {
+					diffuseColor .33 .3 .28
+					specularColor .31 .25 .13
+					ambientIntensity .687
+					shininess .1
+				}
+			   	texture ImageTexture {	
+				url "images\logo.jpg"	
+				repeatS TRUE  
+				repeatT TRUE  
+				} 
+			}
+			geometry Box {size 0.55 0.45 0.03}
+			}
+		]
+	}
+#	 Transform {
+#		translation	0 -0.3 0
+#		children [
+#			Shape {
+#				appearance Appearance {
+#					material Material {
+#						 diffuseColor .24 .24 .24
+#					specularColor .3 .25 .3
+#					ambientIntensity .06
+#					shininess .05
+#					}
+#				}
+#				geometry Box {size 0.1 0.1 0.03}
+#			}
+			
+#		]
+#	}
+#	Transform {
+#		translation	0 -0.35	0
+#		children [
+#			Shape {
+#				appearance Appearance {
+#					material Material {
+#					  	 diffuseColor .24 .24 .24
+#					specularColor .3 .25 .3
+#					ambientIntensity .06
+#					shininess .05
+#					}
+#				}
+#				geometry Box {size 0.4 0.03 0.2}
+
+#			}
+#		]
+#	}
+
+
+	
+		DEF	hienthi Transform {
+			children [
+				Shape {
+					appearance Appearance {
+						texture	MovieTexture {
+						url "E:\vrml\Buồn-cho-V-Tik-Tok-ARMY-BTS.wmv"
+						loop TRUE
+						speed 1
+					}
+						material DEF prjOnOff Material {
+						transparency 1
+						}
+					
+					}
+					geometry IndexedFaceSet	{
+					coord Coordinate {
+						point [-0.275 -0.225 0.03,0.275 -0.225 0.03,0.275 0.225 0.03,-0.275 0.225 0.03]
+					}
+					coordIndex [0 1 2 3]
+				}
+
+				}
+#				DEF	banphim Transform {
+#					translation	0 -0.35 0.3
+#					children [
+#						Shape {
+#							appearance Appearance {
+#								material Material {
+#									ambientIntensity 0
+#									shininess 0
+#								}
+#								texture ImageTexture {	
+#				url "images\kb1 (2).jpg"	
+#				repeatS TRUE  
+#				repeatT TRUE  
+#				} 
+#							}
+#							geometry Box {size 0.45 0.02 0.15}
+#						}
+						
+#					]
+					
+
+#				}
+DEF	dieukhien Transform {
+	translation	0.6 -0.15 1.5
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.05 0.05
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 1 1
+				}
+			}
+		}
+
+		DEF	controlPRJ Script {
+			eventIn	SFBool turn
+			eventOut SFBool	on
+			eventOut SFBool	off
+			field SFBool x TRUE
+			url	"javascript:
+			function turn(val){
+				if(val){
+					if(x){
+						on = true;
+						off = false
+					}else{
+						on = false;
+						off = true;
+					}
+					x=!x;
+				}
+			}
+			"
+		}
+
+		DEF	touch TouchSensor {}
+		DEF	timerPRJ1 TimeSensor {
+			cycleInterval 0.5
+			enabled	FALSE
+		}
+		DEF	timerPRJ2 TimeSensor {
+			cycleInterval 0.5
+			enabled	FALSE
+		}
+		DEF	sInter1 ScalarInterpolator {
+			key	[0 1]
+			keyValue [1 0]
+		}
+		DEF	sInter2	ScalarInterpolator {
+			key	[0 1]
+			keyValue [0 1]
+		}
+	]
+	ROUTE touch.isActive TO	controlPRJ.turn
+	ROUTE controlPRJ.on	TO timerPRJ1.enabled
+	ROUTE controlPRJ.off TO timerPRJ2.enabled
+	ROUTE touch.touchTime TO timerPRJ1.startTime
+	ROUTE touch.touchTime TO timerPRJ2.startTime
+	ROUTE timerPRJ1.fraction_changed TO	sInter1.set_fraction
+	ROUTE timerPRJ2.fraction_changed TO	sInter2.set_fraction
+	ROUTE sInter1.value_changed	TO prjOnOff.transparency
+	ROUTE sInter2.value_changed	TO prjOnOff.transparency
+}
+
+			]
+		}
+	]
+}

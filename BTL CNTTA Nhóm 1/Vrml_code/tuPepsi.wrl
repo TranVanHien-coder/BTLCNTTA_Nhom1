@@ -1,0 +1,135 @@
+#VRML V2.0 utf8
+
+DEF	tuPepsi Transform {
+	translation	0 0.125 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .2 .8
+					specularColor .5 .5 .5
+					emissiveColor 0 .04 .15
+					ambientIntensity 0
+				}
+			}
+			geometry Box {
+			    size	0.8 0.25 0.4
+			}
+		}
+	]
+}
+Transform {
+	translation	0 0.12 0.215
+	children [
+		Shape {
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"images\pepsi.png"
+				}
+			}
+			geometry Box { size	0.8  0.25 0.003 
+			}
+		}
+	]
+}
+Transform {
+	translation	0.425 -0.75 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .2 .8
+					specularColor .5 .5 .5
+					emissiveColor 0 .04 .15
+					ambientIntensity 0
+				}
+			}
+			geometry Box {size 0.05 2 0.4}
+		}
+	]
+}
+Transform {
+	translation	-0.425 -0.75 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 0 .2 .8
+					specularColor .5 .5 .5
+					emissiveColor 0 .04 .15
+					ambientIntensity 0
+				}
+			}
+			geometry Box {size 0.05 2 0.4}
+		}
+	]
+}
+Transform {
+	translation	0 -1.625 0
+	children [
+		Shape {
+		appearance Appearance {
+				material Material {
+					diffuseColor 0 .2 .8
+					specularColor .5 .5 .5
+					emissiveColor 0 .04 .15
+					ambientIntensity 0
+				}
+			}
+			geometry Box {
+			    size	0.8 0.25 0.4
+			}
+		}
+	]
+
+}
+Transform {
+	translation	0 -0.75 -0.21
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 .2 .8
+					specularColor .5 .5 .5
+					emissiveColor 0 .04 .15
+					ambientIntensity 0
+				}
+			}
+			geometry Box {
+			    size	0.8 2 0.005
+			}
+		}
+	]
+}
+Transform {
+	translation	0 -0.25 0
+	children [
+		Shape {
+			geometry Box {size  0.8 0.02 0.35}
+		}
+	]
+}
+Transform {
+	translation	0 -0.5 0
+	children [
+		Shape {
+			geometry Box {size  0.8 0.02 0.35}
+		}
+	]
+}
+Transform {
+	translation	0 -1 0
+	children [
+		Shape {
+			geometry Box {size  0.8 0.02 0.35}
+		}
+	]
+}
+Transform {
+	translation	0 -1.25 0
+	children [
+		Shape {
+			geometry Box {size  0.8 0.02 0.35}
+		}
+	]
+}

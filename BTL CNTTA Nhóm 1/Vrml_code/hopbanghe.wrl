@@ -77,13 +77,23 @@ Transform {
 		]
 }
 Transform {
-	translation	43.05 0.935 25
+	translation	43.15 0.935 25
 	children [
 	
 		Inline {  
 			url	["laptop.wrl"]
 		}
 		]
+}
+Transform {
+	translation 43.20 1.35 25.8
+   rotation 0 1 0 3.14
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
 }
 Transform {
 	translation	43 0.8 22.25
@@ -112,16 +122,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	43 0.935 17.7
 
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
 Transform {
 	translation	43 0.8 15.5
 	children [
@@ -141,7 +142,7 @@ Transform {
 		]
 }
 Transform {
-	translation	43 0.935 13.3
+	translation	43.1 0.935 13.3
 	rotation 0 1 0 3.14
 	children [
 	
@@ -149,6 +150,16 @@ Transform {
 			url	["laptop.wrl"]
 		}
 		]
+}
+Transform {
+	translation 43.15 1.35 12.5
+   rotation 0 1 0 0
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
 }
 Transform {
 	translation	43 0.8 11
@@ -159,15 +170,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	43 0.95 10.95
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	43 0.8 8.75
 	children [
@@ -195,16 +198,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	40.2 0.935 24.55
-	rotation 0 1 0 3.14
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	40.2 0.8 22.25
 	children [
@@ -223,16 +217,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	40.2 0.935 20.05
-	rotation  0 1 0 3.14
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	40.2 0.8 17.75
 	children [
@@ -251,15 +236,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	38.6 0.935 24.45
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	38.6 0.8 22.25
 	children [
@@ -288,15 +265,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	38.6  0.935 19.95
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	38.6  0.8 17.75
 	children [
@@ -316,16 +285,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	39.2  0.935 14.85
 
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
 Transform {
 	translation	37.6  0.8 14.8
 	rotation 0 1 0 1.57
@@ -336,16 +296,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	36.6  0.935 14.85
-	
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 Transform {
 	translation	32.8 0.8 1.8
 	rotation 0 1 0 1.57
@@ -366,16 +317,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	34.4  0.935 1.8
-	
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
+
 
 Transform {
 	translation	38 0.8 1.8
@@ -388,7 +330,7 @@ Transform {
 		]
 }
 Transform {
-	translation	37  0.935 1.8
+	translation	37.1  0.935 1.8
 
 	children [
 	
@@ -396,6 +338,16 @@ Transform {
 			url	["laptop.wrl"]
 		}
 		]
+}
+Transform {
+	translation 37.15 1.35 2.6
+   rotation 0 1 0 3.14
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
 }
 Transform {
 	translation	32.8 0.8 4.6
@@ -417,16 +369,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	34.4  0.935 4.6
 
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
 Transform {
 	translation	38 0.8 4.6
 	rotation 0 1 0 1.57
@@ -447,16 +390,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	40 0.935 10.45
 
-	children [
-	
-		Inline {  
-			url	["laptop.wrl"]
-		}
-		]
-}
 Transform {
 	translation	40  0.8 7.5
 
@@ -468,7 +402,7 @@ Transform {
 		]
 }
 Transform {
-	translation	40  0.935 7.45
+	translation	40.1  0.935 7.45
 
 	children [
 	
@@ -479,12 +413,23 @@ Transform {
 }
 
 
+
 Transform {
 	translation	 35.5 0.3 11.1
 
 	children [
 		Inline {
 			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
+		}
+	]
+}
+Transform {
+	translation 40.15 1.35 8.2
+   rotation 0 1 0 3.14
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
 		}
 	]
 }
@@ -506,16 +451,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 31.15 1.025 11.1
-	rotation 0 1 0 -1.57
 
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
 Transform {
 	translation	 29 0.3 11.1
 
@@ -543,16 +479,7 @@ Transform {
 		}
 	]
 }
- Transform {
-	translation	 24.6 1.025 11.1
-	rotation  0 1 0 1.57
-
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+ 
 Transform {
 	translation	 22.25 0.3 11.1
 
@@ -582,6 +509,16 @@ Transform {
 	]
 }
 Transform {
+	translation 20.7 1.4 11.1
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
+}
+Transform {
 	translation	 17.75 0.3 11.1
 
 	children [
@@ -600,15 +537,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 35.85 1.025 9.5
-	 rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	 33.5 0.3 9.5
 
@@ -627,15 +556,6 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 31.15 1.025 9.5
-	rotation 0 1 0 -1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
 
 Transform {
 	translation	 26.75 0.3 9.5
@@ -646,16 +566,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 26.65 1.025 9.5
-	rotation  0 1 0 -1.57
 
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
  Transform {
 	translation	 24.5 0.3 9.5
 
@@ -672,6 +583,16 @@ Transform {
 	children [
 		Inline {
 			url	["laptop.wrl"]
+		}
+	]
+}
+Transform {
+	translation 25.2 1.4 9.5
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
 		}
 	]
 }
@@ -693,15 +614,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 20.1 1.025 9.5
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	 17.75 0.3 9.5
 
@@ -711,16 +624,7 @@ Transform {
 		}
 	]
 }
-  Transform {
-	translation	 17.65 1.025 9.5
-	rotation 0 1 0 -1.57
-
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+  
 
 Transform {
 	translation	 35.5 0.3 7.5
@@ -751,6 +655,16 @@ Transform {
 	]
 }
 Transform {
+	translation 34.2 1.4 7.7
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
+}
+Transform {
 	translation	 31.25 0.3 7.5
 
 	children [
@@ -768,15 +682,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 29.1 1.025 7.7
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	 26.75 0.3 7.5
 
@@ -804,15 +710,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	 22.35 1.025 7.7
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	 20 0.3 7.5
 
@@ -852,6 +750,16 @@ Transform {
 			url	["laptop.wrl"]
 		}
 		]
+}
+Transform {
+	translation 28.9 1.35 5
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
 }
 Transform {
 	translation	25.4 0.8 5
@@ -894,6 +802,16 @@ Transform {
 		]
 }
 Transform {
+	translation 20.6 1.35 5
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
+}
+Transform {
 	translation	17.65 0.8 5
 
 	children [
@@ -911,15 +829,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	13.45 0.935 1.5
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 
 Transform {
 	translation	10.75 0.8 1.5
@@ -937,15 +847,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	7.95 0.935 1.5
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 
 Transform {
 	translation	5.75 0.8 1.5
@@ -963,15 +865,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	2.95 0.935 1.5
-	rotation  0 1  0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	13.5 0.8 3
 	children [
@@ -999,6 +893,16 @@ Transform {
 	]
 }
 Transform {
+	translation 11.45 1.35 3
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
+}
+Transform {
 	translation	8 0.8 3
 	children [
 		Inline {
@@ -1014,15 +918,7 @@ Transform {
 		}
 	]
 }
-Transform {
-	translation	5.65 0.935 3
-	rotation 0 1 0 1.57
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
+
 Transform {
 	translation	3 0.8 3
 	children [
@@ -1061,51 +957,15 @@ Transform {
 		}
 		]
 }
-
-
-#Transform {
-#	translation	13.5 0.8 8
-#	children [
-#		Inline {
-#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-#		}
-#	]
-#}
-
-#Transform {
-#	translation	10.75 0.8 8
-#	children [
-#		Inline {
-#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-#		}
-#	]
-#}
-#Transform {
-#	translation	8 0.8 8
-#	children [
-#		Inline {
-#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-#		}
-#	]
-#}
-#Transform {
-#	translation	5.75 0.8 8
-#	children [
-#		Inline {
-#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-#		}
-#	]
-#}
-#Transform {
-#	translation	3 0.8 8
-#	children [
-#		Inline {
-#			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-#		}
-#	]
-#}
-
-
-
+Transform {
+	translation 17.75 1.35 15.75
+   rotation 0 1 0 -1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi.wrl"
+		}
+	]
+}
 
 

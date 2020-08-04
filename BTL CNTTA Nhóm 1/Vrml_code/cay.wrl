@@ -2,12 +2,9 @@
 
   Shape {
    appearance    Appearance {
-    material Material {
-		diffuseColor .23 .39 .19
-		specularColor .2 .3 .29
-		ambientIntensity .06
-		shininess .39
-        }
+       texture	ImageTexture {
+		   url "images\lacaynho.jpg"
+	   }
     }
     
     geometry Extrusion {

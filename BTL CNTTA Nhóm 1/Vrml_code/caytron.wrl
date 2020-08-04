@@ -1,0 +1,140 @@
+#VRML V2.0 utf8
+
+DEF	caytron Transform {
+	translation	-0.4 -0.1 0
+	children [
+		Shape {
+			appearance Appearance {
+				texture ImageTexture {
+					url	"images\xanh.jpeg"
+				}
+			}
+			geometry Sphere {
+				radius 1.5
+			}
+		}
+	]
+}
+Transform {
+	translation	1.75 -1.35 0
+	rotation 0 0 1 0.985
+	children [
+		DEF	canh Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .09 .03 0
+					specularColor .22 .1 .1
+					ambientIntensity .01
+					shininess .05
+				}							
+			}
+			geometry Cylinder {
+				height 2.2
+				radius 0.2
+			}
+		}
+	]
+}
+Transform {
+	translation	3.25 -0.6 -2.5
+	children [
+		USE	caytron
+	]
+}
+Transform {
+	translation	2.65 -1.8 0.9
+	rotation 1 0 0 0.95
+	children [
+		USE	canh
+	]
+}
+Transform {
+	translation	2 -0.6 2.5
+	children [
+		USE	caytron
+	]
+}
+Transform {
+	translation	2.65 -1.8 -0.9
+	rotation 1 0 0 -0.95
+	children [
+		USE	canh
+	]
+}
+Transform {
+	translation	5.25 -1.4 0.5
+	children [
+		USE	caytron
+	]
+}
+Transform {
+	translation	3.5 -2.8 0
+	rotation 0 0 1 -0.985
+	children [
+		DEF	canh2 Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .09 .03 0
+					specularColor .22 .1 .1
+					ambientIntensity .01
+					shininess .05
+				}
+			}
+			geometry Cylinder {
+				height 2
+				radius 0.2
+			}
+		}
+	]
+}
+
+Transform {
+translation	2.75 2.5 0.5
+	children [
+		Shape {
+			appearance Appearance {
+				texture ImageTexture {
+					url	"images\xanh.jpeg"
+				}
+			}
+			geometry Sphere {
+				radius 2.5
+			}
+		}
+	]
+}
+Transform {
+	translation	2.75 -2.3 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .09 .03 0
+					specularColor .22 .1 .1
+					ambientIntensity .01
+					shininess .05
+				}
+			}
+			geometry Cylinder {
+				height 5
+				radius 0.3
+			}
+		}
+	]
+}
+Transform {
+	translation	2.75 -4.78 0
+	children [
+		Shape {
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"images\dat.jpg"
+				}
+			}
+			geometry Box {
+				size 4 0.1 4
+			}
+		}
+	]
+}
+
