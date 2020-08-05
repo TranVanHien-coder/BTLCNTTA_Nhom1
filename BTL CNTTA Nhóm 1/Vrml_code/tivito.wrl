@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+ 
+
+  DEF	khung1 Transform {
+	translation	0 0 0
+	children [
+		Shape {
+			appearance Appearance {
+				material DEF mau Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+			}
+			geometry Box {size 0.9 0.7 0.03}
+		}
+		DEF manhinh1 Transform {
+			translation	0 0 0.005
+			children [
+	    Shape {
+			appearance Appearance {
+				material DEF mau2 Material {
+					diffuseColor .24 .1 .22
+					specularColor .31 .39 .39
+					ambientIntensity .06
+					shininess .13
+				}
+			   	
+			}
+			geometry Box {size 0.85 0.65 0.03}
+			}
+		]
+	}
+
+
+
+	
+	  
+	]
+}
