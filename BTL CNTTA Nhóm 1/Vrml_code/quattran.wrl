@@ -386,18 +386,8 @@ solid FALSE
 
 DEF	touch TouchSensor{}
 DEF	timer1 TimeSensor {
-	cycleInterval 0.1
-	loop FALSE
-	enabled	FALSE
-}
-DEF	timer2 TimeSensor {
 	cycleInterval 1
 	loop TRUE
-	enabled	FALSE
-}
-DEF	timer TimeSensor {
-	cycleInterval 0.1
-	loop FALSE
 	enabled	FALSE
 }
 DEF	control Script {
@@ -420,26 +410,12 @@ DEF	control Script {
 	}
 	"
 }
-DEF	oInterC1 OrientationInterpolator	{
-	key[0.5 1]
-	keyValue [0 0 1 1.57, 0 0 1 0]
+DEF	ori OrientationInterpolator	{
+	key[0 0.5 1]
+	keyValue [0 1 0 0, 0 1 0 3.14, 0 1 0 6.28]
 }
-DEF	oInterC OrientationInterpolator {
-	key	[0 1]
-	keyValue [0 0 1 0,0 0 1 1.57]
-}
-DEF	oInterQ OrientationInterpolator {
-	key	[0 0.5 1]
-	keyValue [0 1 0 0,0 1 0 3.14,0 1 0 6.28]
-}
+
 ROUTE touch.isActive TO	control.turn
 ROUTE control.on TO	timer1.enabled
-ROUTE control.on TO	timer2.enabled
-ROUTE control.off TO timer.enabled
-ROUTE touch.touchTime TO timer2.startTime
-ROUTE touch.touchTime TO timer.startTime
-ROUTE touch.touchTime TO timer1.startTime
-ROUTE timer2.fraction_changed TO oInterQ.set_fraction
-ROUTE oInterQ.value_changed	TO phanquay.rotation
-ROUTE timer1.fraction_changed TO	oInterC.set_fraction
-ROUTE timer.fraction_changed TO oInterC1.set_fraction
+ROUTE timer1.fraction_changed TO  ori.set_fraction
+ROUTE ori.value_changed TO phanquay.rotation

@@ -1,96 +1,164 @@
 #VRML V2.0 utf8
 
 
-
-Transform {
+Inline {
+	url	"main.wrl"
+}
+DEF quat1 Transform {
 			translation	36.5 3.5 10
 			scale 5 5 5
 			children [
 				Inline {
 					url	["quattran.wrl"]
 				}
+				DEF	ori OrientationInterpolator	{
+					key[0 0.5 1]
+					keyValue [0 1 0 0, 0 1 0 3.14, 0 1 0 6.28]
+}
 			]
 }
 Transform {
-			translation	31 3.5 10
-			scale 5 5 5
+			translation	-5.5 0 0
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	24.8 3.5 10
-			scale 5 5 5
+			translation	-11.7 0 0
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	18.5 3.5 10
-			scale 5 5 5
+			translation	-18 0 0
+		
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	36.5 3.5 6
-			scale 5 5 5
+			translation	0 0 -4
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	31 3.5 6
-			scale 5 5 5
+			translation	-5.5 0 -4
+		
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	24.8 3.5 6
-			scale 5 5 5
+			translation	-11.7 0 -4
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	18.5 3.5 6
-			scale 5 5 5
+			translation	-18 0 -4
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	11 3.5 6
-			scale 5 5 5
+			translation	-25.2 0 -4
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
-				}
+				USE	quat1
 			]
 }
 Transform {
-			translation	5 3.5 6
-			scale 5 5 5
+			translation	31.5 0 -4
+			
 			children [
-				Inline {
-					url	["quattran.wrl"]
+				USE	quat1
+			]
+}
+DEF contacden Transform {
+	rotation 0 1 0 -1.57
+	translation	43.8 3 38.2
+	children [
+		Shape {
+			geometry Box {
+				size 0.05 0.05 0.015
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor .39 .46 .42
+					specularColor .53 .53 .53
+					ambientIntensity .103
+					shininess .93
+				}
+			}
+		}
+
+	DEF	nut Transform {
+			translation	0 0 0.01
+			rotation 1 0 0 1.57
+			children [
+				Shape {
+					geometry Cylinder {
+						height 0.005
+						radius 0.01
+						bottom TRUE
+						top	TRUE
+						side TRUE
+					}
+					appearance Appearance {
+						material Material {
+							diffuseColor .88 .15 .01
+							specularColor .19 .03 .03
+							ambientIntensity .0833
+							shininess .08
+						}
+					}
 				}
 			]
+		}
+		DEF	touch1 TouchSensor {
+			enabled	TRUE
+		}
+
+		DEF	time3 TimeSensor {
+			enabled	FALSE
+			loop TRUE
+		}
+
+		DEF ma Script {
+			eventIn	SFBool turnOn
+			eventOut SFBool	on
+			eventOut SFBool	off
+			field SFBool turn FALSE	
+			url	"javascript:
+			function turnOn(val){
+				if(val){
+					turn = !turn;
+					if(turn)
+					{	
+				  on = true; off = false; 	  
+				 
+					}
+  					else
+       				{  
+					on = false; off = true;	 
+					}
+    			}
+			}
+			"
+		}
+	]
+	ROUTE touch1.isActive TO ma.turnOn
+	ROUTE ma.on	TO time3.enabled
+	ROUTE time3.fraction_changed TO  ori.set_fraction
+	ROUTE ori.value_changed TO quat1.rotation
+	
+	
 }
 
 

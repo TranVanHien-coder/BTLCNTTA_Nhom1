@@ -11,6 +11,7 @@ DEF denvuong Transform {
 						}
 
 						DEF plBDen PointLight {
+							on FALSE
 
 							intensity 0.2			
 
@@ -519,6 +520,7 @@ DEF	denchup Transform {
 						}
 
 						DEF plBDen2 PointLight {
+							on FALSE
 
 							intensity 0.2			
 
