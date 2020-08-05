@@ -31,29 +31,14 @@ DEF denvuong Transform {
 		}
 
 		Transform {
-			translation	42.5 3.5 32
-			children [
-				USE	den1
-			]
-		}
-		   
-
-		Transform {
-			translation	42.5 3.5 28
-			children [
-				USE	den1
-			]
-		}
-
-		Transform {
-			translation	42.5 3.5 24
+			translation	42.5 3.5 30
 			children [
 				USE	den1
 			]
 		} 
-		
+
 		Transform {
-			translation	42.5 3.5 20
+			translation	42.5 3.5 24
 			children [
 				USE	den1
 			]
@@ -61,13 +46,6 @@ DEF denvuong Transform {
 
 		Transform {
 			translation	42.5 3.5 16
-			children [
-				USE	den1
-			]
-		}
-
-		Transform {
-			translation	42.5 3.5 12
 			children [
 				USE	den1
 			]
@@ -99,24 +77,10 @@ DEF denvuong Transform {
 			children [
 				USE	den1
 			]
-		} 
-
-		Transform {
-			translation	27 3.5 5
-			children [
-				USE	den1
-			]
 		}
 
 		Transform {
 			translation	23 3.5 5
-			children [
-				USE	den1
-			]
-		}  
-	
-			Transform {
-			translation	19 3.5 5
 			children [
 				USE	den1
 			]
@@ -137,13 +101,6 @@ DEF denvuong Transform {
 		} 
 
 		Transform {
-			translation	9 3.5 2
-			children [
-				USE	den1
-			]
-		}  
-
-		Transform {
 			translation	5 3.5 2
 			children [
 				USE	den1
@@ -158,13 +115,6 @@ DEF denvuong Transform {
 		} 
 
 		Transform {
-			translation	7 3.5 6
-			children [
-				USE	den1
-			]
-		}
-
-		Transform {
 			translation	11 3.5 6
 			children [
 				USE	den1
@@ -176,14 +126,7 @@ DEF denvuong Transform {
 			children [
 				USE	den1
 			]
-		}	
-
-		Transform {
-			translation	9 3.5 9.5
-			children [
-				USE	den1
-			]
-		} 
+		}
 
 		Transform {
 			translation	13 3.5 9.5
@@ -250,13 +193,6 @@ DEF denvuong Transform {
 
 		Transform {
 			translation	34 3.5 13
-			children [
-				USE	den1
-			]
-		}  
-
-		Transform {
-			translation	35.5 3.5 14.5
 			children [
 				USE	den1
 			]
