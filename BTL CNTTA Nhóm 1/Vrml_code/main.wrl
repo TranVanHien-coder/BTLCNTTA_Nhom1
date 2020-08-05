@@ -25,6 +25,49 @@ Transform {
 		}
 	]
 }
+Inline {
+			url	["ghepquat.wrl"]
+		}	
+		
+			
+#nguoi di o ngoai via he:
+Transform {
+	   translation	-6 2.7 47
+	children [
+	DEF nguoiN1 Transform {
+			
+			scale 0.2 0.2 0.2
+			
+			children [
+				Inline {
+					url	"nguoidilai.wrl"
+				}
+			]
+		}
+		DEF TS1 TimeSensor {
+    		enabled TRUE
+    		cycleInterval 40
+    		loop TRUE
+		}
+		DEF	or1 OrientationInterpolator {
+			key	[0 0.24 0.25 0.49 0.5 0.74 0.75 0.99 1]
+			keyValue [0 1 0 0, 0 1 0 1.57 , 0 1 0 0,0 1 0 1.57,0 1 0 0, 0 1 0 1.57, 0 1 0 0, 0 1 0 1.57, 0 1 0 0]
+		}
+
+		DEF	 pos1 PositionInterpolator {
+			key	[0 0.25 0.5 0.75 1]
+			keyValue [0 0 0,57 0 0,57 0 -53,-1 0 -53,0 0 0]
+		}
+
+
+	]
+ROUTE TS1.fraction_changed TO or1.set_fraction
+ROUTE TS1.fraction_changed TO pos1.set_fraction
+
+ROUTE pos1.value_changed TO	nguoiN1.translation
+ROUTE or1.value_changed	TO nguoiN1.rotation
+
+}
 
 Transform {
 	translation	41.65 1.75 10
