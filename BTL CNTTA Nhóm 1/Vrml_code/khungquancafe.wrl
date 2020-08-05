@@ -32,7 +32,11 @@ Transform {
 			}
 			appearance Appearance {
 				material DEF mau Material {
-						emissiveColor 0.38 0.38 0.38
+						emissiveColor .14 .18 .28
+						diffuseColor 0 .35 .25
+						specularColor 0 .16 .18
+						ambientIntensity .0533
+						shininess .06
 					}
 			}
 		}

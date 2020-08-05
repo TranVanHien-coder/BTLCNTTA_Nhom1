@@ -15,90 +15,101 @@ Transform {
 				}
 			}
 		}
-
-		DEF plDen PointLight { 
-		on FALSE 
-		intensity 1
-		ambientIntensity 0 
-		color 1 1 1		
-		location 0 -0.5 0 
-		attenuation -1 0 0 
-		radius 30
-		}
-	    
 	]
 }
 
-#Transform {
-#	translation	0 -3 0
-#	children [
-#		Shape {
-#			geometry Box {
-#				size 2 2 2
-#			}
-#			appearance Appearance {
-#				material Material {
-#					diffuseColor 0 0 0
-#					specularColor .29 .3 .29
-#					ambientIntensity 0
-#					shininess .08
-#				}
-#			}
-#		}
-#	]
-#}
+Transform {
+	translation	0 0.015 0
+	children [
+		Shape {
+			geometry Box {
+				size 0.1 0.001 0.1
+			}
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 0
+					specularColor .29 .3 .29
+					ambientIntensity 0
+					shininess .08
+				}
+			}
+		}
+	]
+}
 
-#Transform {
-#	translation	2 0 0
-#	children [
-#	DEF	congtac Shape {
-#			geometry Box {
-#				size 0.1 0.1 0.1
-#			}
-#			appearance Appearance {
-#				material Material {
-#					diffuseColor .23 .39 .19
-#					specularColor .2 .3 .29
-#					ambientIntensity .06
-#					shininess .39
-#				}
-#			}
-#		}
+Transform {
+	translation	0 0 0.05
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 0
+					specularColor .29 .3 .29
+					ambientIntensity 0
+					shininess .08
+				}
+			}
+			geometry Box {
+				size 0.101 0.03 0.001
+			}
+		}
+	]
+}
 
-#		DEF	t1 TouchSensor {
-#			enabled	TRUE
-#		}
+Transform {
+	translation	0 0 -0.05
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 0
+					specularColor .29 .3 .29
+					ambientIntensity 0
+					shininess .08
+				}
+			}
+			geometry Box {
+				size 0.101 0.03 0.001
+			}
+		}
+	]
+}
 
-#		DEF	time1 TimeSensor {
-#			enabled	FALSE
-#			loop TRUE
-#		}
+Transform {
+	translation	0.05 0 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 0
+					specularColor .29 .3 .29
+					ambientIntensity 0
+					shininess .08
+				}
+			}
+			geometry Box {
+				size 0.001 0.03 0.1
+			}
+		}
+	]
+}
 
-#		DEF ma Script {
-#			eventIn	SFBool turnOn
-#			eventOut SFBool	on
-#			eventOut SFBool	off
-#			field SFBool turn FALSE	
-#			url	"javascript:
-#			function turnOn(val){
-#				if(val){
-#					turn = !turn;
-#					if(turn)
-#					{	
-#				  on = true; off = false; 	  
-				 
-#					}
-#  					else
-#       				{  
-#					on = false; off = true;	 
-#					}
-#    			}
-#			}
-#			"
-#		}
-#	]
-#}
+Transform {
+	translation	-0.05 0 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0 0
+					specularColor .29 .3 .29
+					ambientIntensity 0
+					shininess .08
+				}
+			}
+			geometry Box {
+				size 0.001 0.03 0.1
+			}
+		}
+	]
+}
 
-#ROUTE t1.isActive TO ma.turnOn
-#ROUTE ma.on	TO time1.enabled
-#ROUTE time1.isActive TO	plDen.on
