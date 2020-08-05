@@ -1,9 +1,7 @@
 #VRML V2.0 utf8
 
 
-Inline {
-	url	"main.wrl"
-}
+
 DEF quat1 Transform {
 			translation	36.5 3.5 10
 			scale 5 5 5
@@ -74,7 +72,7 @@ Transform {
 			]
 }
 Transform {
-			translation	31.5 0 -4
+			translation	-31.5 0 -4
 			
 			children [
 				USE	quat1

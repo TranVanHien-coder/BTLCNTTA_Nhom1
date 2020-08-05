@@ -3,9 +3,9 @@
 Inline {
 	url	["khungquancafe.wrl"]
 }
-#Inline {
-#	url	["ghepgiasach.wrl"]
-#}
+Inline {
+	url	["ghepgiasach.wrl"]
+}
 Transform {
 	translation	44 0.1 0
 	scale 1.8 3 1.8
