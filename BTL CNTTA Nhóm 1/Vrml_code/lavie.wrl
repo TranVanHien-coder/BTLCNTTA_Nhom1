@@ -1,0 +1,161 @@
+#VRML V2.0 utf8
+
+DEF thanchai Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor .48 .53 .6
+			specularColor .32 .4 .4
+			emissiveColor .25 .27 .31
+			ambientIntensity .0667
+			shininess .54
+			transparency .408
+
+		}
+	}
+	geometry Extrusion {
+		crossSection [
+			1.00	0.00
+0.92	0.38
+0.71	0.71
+0.38	0.92
+0.00	1.00
+-0.38	0.92
+-0.71	0.71
+-0.92	0.38
+-1.00	0.00
+-0.92	-0.38
+-0.71	-0.71
+-0.38	-0.92
+0.00	-1.00
+0.38	-0.92
+0.71	-0.71
+0.92	-0.38
+1.00	0.00
+
+		]
+		spine [0 0.15 0 , 0 0 0 , 0 0.15 0 , 0 0.6 0, 0 0.75 0, 0 0.95 0, 0 1.1 0, 0 1.7 0, 0 2 0, 0 2.2 0 ]
+		scale [0 0, 0.2 0.2, 0.3 0.3, 0.3 0.3, 0.26 0.26, 0.27 0.27, 0.3 0.3, 0.3 0.3, 0.12 0.12, 0.12 0.12 ]
+		solid TRUE
+		creaseAngle	1
+		beginCap TRUE
+		endCap TRUE
+	}
+}
+
+		DEF	napchai Transform {
+			translation	0 2.35 0
+			rotation -1 0 0 3.14
+			children [
+				DEF	tou1 TouchSensor {enabled TRUE }
+				Shape {
+					appearance Appearance {
+						material DEF mau Material {
+							diffuseColor 0 .48 .8
+							specularColor .5 .5 .5
+							emissiveColor 0 .09 .15
+							ambientIntensity 0
+						}
+					}
+					geometry Extrusion {
+						crossSection [
+							 1.00	0.00
+0.92	0.38
+0.71	0.71
+0.38	0.92
+0.00	1.00
+-0.38	0.92
+-0.71	0.71
+-0.92	0.38
+-1.00	0.00
+-0.92	-0.38
+-0.71	-0.71
+-0.38	-0.92
+0.00	-1.00
+0.38	-0.92
+0.71	-0.71
+0.92	-0.38
+1.00	0.00
+
+						]
+						spine [ 0 0.1 0, 0 0.2 0]
+						scale [0.13 0.13, 0.13 0.13]
+						solid FALSE
+						creaseAngle	1
+						beginCap TRUE
+						endCap FALSE
+					}
+				}
+				
+			]
+		}
+	
+
+DEF	timesensor TimeSensor {
+	enabled	FALSE
+	cycleInterval 3
+	loop TRUE
+}
+DEF	OrienInl OrientationInterpolator {
+	key	[0 0.5 1]
+	keyValue [0 1 0 0, 0 1 0 3.14, 0 1 0 6.28]
+}
+DEF	pos1 PositionInterpolator {
+	key	[0 0.5 1]
+	keyValue [0 2.1 0 0 2.1 0 0 2.1 0]
+}
+DEF	timesensor2 TimeSensor {
+	enabled	TRUE
+	cycleInterval 4
+	loop FALSE
+	startTime 3
+}
+DEF	OrienInl2 OrientationInterpolator {
+	key	[ 0 0.25 0.5 0.75 1]
+	keyValue [0 0 1 0, 0 0 1 3.14, 0 0 1 1.57, 0 0 1 9.42, 0 0 1 12.56]
+}
+DEF	pos2 PositionInterpolator {
+	key	[0 0.25 0.5 0.75 1]
+	keyValue [0 2.15 0, 0 2.25 0, 1.25 1.5 0, 2 1 0, 2.5 0 0]
+}
+DEF ma Script {
+
+	eventIn SFBool turnOn
+
+
+	eventOut SFBool On
+
+	eventOut SFBool Off
+
+	field SFBool turn FALSE
+
+	url "javascript:
+			function turnOn(val){
+				if(val){
+					turn = !turn;
+					if(turn){
+						On= TRUE;
+                   		Off=FALSE;
+            			}
+        			else{
+           				On=FALSE;
+						Off=TRUE;
+        				}
+
+    				}
+			}
+		"
+
+}
+ROUTE tou1.isActive	TO ma.turnOn
+ROUTE ma.On	TO timesensor.enabled
+#ROUTE tou1.isOver TO timesensor1.enabled : quay khi chạm vào quạt
+ROUTE timesensor.fraction_changed TO OrienInl.set_fraction
+ROUTE OrienInl.value_changed TO	napchai.rotation
+ROUTE timesensor.fraction_changed TO pos1.set_fraction
+ROUTE  pos1.value_changed TO napchai.translation
+
+ROUTE ma.Off TO timesensor2.enabled
+ROUTE tou1.touchTime TO	timesensor2.startTime
+ROUTE timesensor2.fraction_changed TO OrienInl2.set_fraction
+ROUTE timesensor2.fraction_changed TO pos2.set_fraction
+ROUTE pos2.value_changed TO	napchai.translation

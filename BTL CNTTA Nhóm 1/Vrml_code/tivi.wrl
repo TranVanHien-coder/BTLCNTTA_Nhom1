@@ -40,7 +40,7 @@
 				Shape {
 					appearance Appearance {
 						texture	MovieTexture {
-						url "E:\vrml\Buồn-cho-V-Tik-Tok-ARMY-BTS.wmv"
+						url "BTS (방탄소년단) 'Dynamite' Official Teaser (convert-video-online.com).wmv"
 						loop TRUE
 						speed 1
 					}
