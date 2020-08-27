@@ -87,16 +87,71 @@ DEF	doc2 Transform {
 	translation	1.5 0 0
 	children [USE doc1]
 }
-#Transform {
-#	translation	0.1 0.47 0.1
-#	children [
-#		  Inline {
-#			url	["sach/7quyen3.wrl"]
-#			bboxCenter 0 0 0
-#			bboxSize -1 -1 -1
-#}
-#	]
-#}
+
+DEF	cocly Transform	{
+	children [		  Transform {
+	translation	0.3 0.435 0.1
+	scale 2 2 2
+	children [
+		  Inline {
+			url	["coc.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.6 0.72 0.1
+		scale 1.5 1.5 1.5
+	children [
+		  Inline {
+			url	["ly.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	0.9 0.435 0.1
+		scale 2 2 2
+	children [
+		  Inline {
+			url	["coc.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}
+Transform {
+	translation	1.2 0.72 0.1
+		scale 1.5 1.5 1.5
+	children [
+		  Inline {
+			url	["ly.wrl"]
+			bboxCenter 0 0 0
+			bboxSize -1 -1 -1
+}
+	]
+}]
+}
+Transform {
+	translation	0 0.8 0
+	children [
+		USE	cocly
+	]
+}
+Transform {
+	translation	0 1.6 0
+	children [
+		USE	cocly
+	]
+}
+Transform {
+	translation	0 2.4 00
+	children [
+		USE	cocly
+	]
+}
 #Transform {
 #	translation	0.1 0.87 0.1
 #	children [

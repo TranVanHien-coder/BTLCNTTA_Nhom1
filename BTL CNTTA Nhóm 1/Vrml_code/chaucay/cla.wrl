@@ -4,21 +4,21 @@ Transform {
 	translation	0 -0.03 0
 	children [
 		Inline {
-			url	"C:\Users\An Viet Computer\Desktop\BTLCNTTA_Nhom1\BTL CNTTA Nhóm 1\Vrml_code\chaucay\la.wrl"
+			url	"la.wrl"
 		}
 	]
 }
 Transform {
 	children [
 		Inline {
-			url	"C:\Users\An Viet Computer\Desktop\BTLCNTTA_Nhom1\BTL CNTTA Nhóm 1\Vrml_code\chaucay\la2.wrl"
+			url	"la2.wrl"
 		}
 	]
 }
 	Transform {
 	children [
 		Inline {
-			url	"C:\Users\An Viet Computer\Desktop\BTLCNTTA_Nhom1\BTL CNTTA Nhóm 1\Vrml_code\chaucay\la4.wrl"
+			url	"la4.wrl"
 		}
 	]
 }
@@ -26,7 +26,7 @@ Transform {
 	Transform {
 	children [
 		Inline {
-			url	"C:\Users\An Viet Computer\Desktop\BTLCNTTA_Nhom1\BTL CNTTA Nhóm 1\Vrml_code\chaucay\la3.wrl"
+			url	"la3.wrl"
 		}
 	]
 }
@@ -35,7 +35,7 @@ Transform {
 		rotation 0 1 0 4.57
 	children [
 		Inline {
-			url	"C:\Users\An Viet Computer\Desktop\BTLCNTTA_Nhom1\BTL CNTTA Nhóm 1\Vrml_code\chaucay\la3.wrl"
+			url	"la3.wrl"
 		}
 	]
 }

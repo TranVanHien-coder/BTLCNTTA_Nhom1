@@ -40,7 +40,7 @@
 				Shape {
 					appearance Appearance {
 						texture	MovieTexture {
-						url "E:\vrml\Buồn-cho-V-Tik-Tok-ARMY-BTS.wmv"
+						url "Buồn-cho-V-Tik-Tok-ARMY-BTS.wmv"
 						loop TRUE
 						speed 1
 					}

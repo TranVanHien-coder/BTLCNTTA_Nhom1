@@ -3,9 +3,7 @@
 Inline {
 	url	["khungquancafe.wrl"]
 }
-Inline {
-	url	["ghepgiasach.wrl"]
-}
+
 Transform {
 	translation	44 0.1 0
 	scale 1.8 3 1.8
@@ -31,12 +29,120 @@ Transform {
 		}
 	]
 }
+  Transform {
+	translation	25.8 2 14.8
+	rotation 0 1 0 -3.14
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoidung.wrl"
+		}
+	]
+}
 Transform {
 	translation	24.8 1.92 14
 	rotation 0 1 0 -3.14
 	children [
 		Inline {
 			url	"maytinhcay.wrl"
+		}
+	]
+}
+Transform {
+	translation	25.5 1.6 14
+	rotation 0 1 0 -3.14
+	scale 1.5 1.5 1.5
+	children [
+		Inline {
+			url	"coc.wrl"
+		}
+	]
+}
+Transform {
+	translation	25.5 1.9 13.8
+	rotation 0 1 0 -3.14
+	scale 1.5 1.5 1.5
+	children [
+		Inline {
+			url	"ly.wrl"
+		}
+	]
+}
+Transform {
+	translation	25.8 1.6 14
+	rotation 0 1 0 -3.14
+	scale  1.5 1.5 1.5
+	children [
+		Inline {
+			url	"coc.wrl"
+		}
+	]
+}
+Transform {
+	translation	25.8 1.9 13.8
+	rotation 0 1 0 -3.14
+	scale  1.5 1.5 1.5
+	children [
+		Inline {
+			url	"ly.wrl"
+		}
+	]
+}
+Transform {
+	translation	26.1 1.6 14
+	rotation 0 1 0 -3.14
+	scale  1.5 1.5 1.5
+	children [
+		Inline {
+			url	"coc.wrl"
+		}
+	]
+}
+Transform {
+	translation	26.1 1.9 13.8
+	rotation 0 1 0 -3.14
+	scale  1.5 1.5 1.5
+	children [
+		Inline {
+			url	"ly.wrl"
+		}
+	]
+}
+Transform {
+	translation	27 1.6 13.8
+	rotation 0 1 0 -3.14
+	scale 1.5 1.5 1.5
+	children [
+		Inline {
+			url	"chaucay/chauhoa.wrl"
+		}
+	]
+}
+Transform {
+	translation	24.8 1.6 17
+	rotation 0 1 0 -3.14
+	scale 1.5 1.5 1.5
+	children [
+		Inline {
+			url	"chaucay/chauhoa.wrl"
+		}
+	]
+}
+Transform {
+	translation	27.5 0 14.1
+	rotation 0 1 0 -1.57
+	children [
+		Inline {
+			url	"giacoc1.5m.wrl"
+		}
+	]
+}
+Transform {
+	translation	27.5 0 15.6
+	rotation 0 1 0 -1.57
+	children [
+		Inline {
+			url	"giacoc1.5m.wrl"
 		}
 	]
 }
@@ -50,7 +156,7 @@ Transform {
 	]
 }
 Transform {
-	translation	23.4 2.5 14.5
+	translation	23.3 2.5 14.5
 	rotation 0 1 0 1.57
 	children [
 		Inline
@@ -60,7 +166,7 @@ Transform {
 	]
 }
 Transform {
-	translation	23.4 3 15.5
+	translation	23.3 3 15.5
 	rotation 0 1 0 1.57
 	children [
 		Inline {
@@ -356,16 +462,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	35.4 0.8 1.8
-	rotation 0 1 0 1.57
-	children [
-	
-		Inline {  
-			url	["banghevuonggo/kethop3ban6ghe.wrl"]
-		}
-		]
-}
+
 
 
 Transform {
@@ -408,16 +505,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	35.4 0.8 4.6
-	rotation 0 1 0 1.57
-	children [
-	
-		Inline {  
-			url	["banghevuonggo/kethop3ban6ghe.wrl"]
-		}
-		]
-}
+
 
 Transform {
 	translation	38 0.8 4.6
@@ -577,102 +665,7 @@ Transform {
 	]
 }
 
-Transform {
-	translation	 35.75 0.3 9.5
 
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-
-Transform {
-	translation	 33.5 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 31.25 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-
-Transform {
-	translation	 26.75 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-
- Transform {
-	translation	 24.5 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 24.6 1.025 9.5
-	rotation 0 1 0 1.57
-
-	children [
-		Inline {
-			url	["laptop.wrl"]
-		}
-	]
-}
-Transform {
-	translation 25.2 1.4 9.5
-   rotation 0 1 0 -1.57
-	scale 0.25 0.25 0.25
-	children [
-		Inline {
-			url	"nguoingoi.wrl"
-		}
-	]
-}
-Transform {
-	translation	 22.25 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-Transform {
-	translation	 20 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
-
-Transform {
-	translation	 17.75 0.3 9.5
-
-	children [
-		Inline {
-			url	["banvuongtrutron/kethop1bantru2ghesofa.wrl"]
-		}
-	]
-}
   
 
 Transform {
@@ -870,50 +863,7 @@ Transform {
 		}
 		]
 }
-Transform {
-	translation	13.5 0.8 1.5
-	children [
-		Inline {
-			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-		}
-	]
-}
 
-
-Transform {
-	translation	10.75 0.8 1.5
-	children [
-		Inline {
-			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-		}
-	]
-}
-Transform {
-	translation	8 0.8 1.5
-	children [
-		Inline {
-			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-		}
-	]
-}
-
-
-Transform {
-	translation	5.75 0.8 1.5
-	children [
-		Inline {
-			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-		}
-	]
-}
-Transform {
-	translation	3 0.8 1.5
-	children [
-		Inline {
-			url	["bangoghesopha/kethop1ban1ghesfd2gsfngan.wrl"]
-		}
-	]
-}
 
 Transform {
 	translation	13.5 0.8 3

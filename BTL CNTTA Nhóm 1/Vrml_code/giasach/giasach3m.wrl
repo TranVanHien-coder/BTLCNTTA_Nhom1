@@ -146,26 +146,7 @@ Transform {
 		USE	docngan3
 	]
 }
-Transform {
-	translation	0.1 0.47 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen3.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
-Transform {
-	translation	1.52 0.47 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen5.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
+
 Transform {
 	translation	0.1 0.87 0.1
 	children [
@@ -196,26 +177,7 @@ Transform {
 }
 	]
 }
-Transform {
-	translation	0.1 1.27 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen2.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
-Transform {
-	translation	1.52 1.27 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen4.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
+
 Transform {
 	translation	0.1 1.67 0.1
 	children [
@@ -246,26 +208,7 @@ Transform {
 }
 	]
 }
-Transform {
-	translation	0.1 2.07 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen1.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
- Transform {
-	translation	1.52 2.07 0.1
-	children [
-		  Inline {
-			url	["sach/12quyen5.wrl"]
-			bboxCenter 0 0 0
-			bboxSize -1 -1 -1
-}
-	]
-}
+
 Transform {
 	translation	0.1 2.47 0.1
 	children [
