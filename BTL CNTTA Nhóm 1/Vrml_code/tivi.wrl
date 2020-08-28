@@ -42,7 +42,7 @@
 						texture	MovieTexture {
 
 
-						url "BTS (방탄소년단) 'Dynamite' Official Teaser (convert-video-online.com).wmv"
+#						url "BTS (방탄소년단) 'Dynamite' Official Teaser (convert-video-online.com).wmv"
 						loop TRUE
 						speed 1
 					}
