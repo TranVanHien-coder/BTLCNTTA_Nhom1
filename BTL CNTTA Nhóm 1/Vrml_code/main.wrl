@@ -9,9 +9,11 @@ Transform {
 		}
 	]
 }
-#Inline {
-#	url	["ghepgiasach.wrl"]
-#}
+
+Inline {
+	url	["ghepgiasach.wrl"]
+}
+
 Transform {
 	translation	-10 0 -10
 	children [
@@ -21,16 +23,18 @@ Transform {
 	]
 }
 
-#Transform {
-#	children [
-#		Inline {
-#			url	["ghepden.wrl"]
-#		}
-#	]
-#}
-#Inline {
-#			url	["ghepquat.wrl"]
-#		}	
+
+Transform {
+	children [
+		Inline {
+			url	["ghepden.wrl"]
+		}
+	]
+}
+Inline {
+			url	["ghepquat.wrl"]
+		}	
+
 		
 #cay:
 DEF cay Transform {
@@ -265,7 +269,7 @@ Transform {
 
 		DEF	dichuyen3 PositionInterpolator {
 			key	[0, 0.2, 0.4, 0.6, 0.8, 1]
-			keyValue [27 -1 25, 80 -1 25, 80 -1 13.5, -8 -1 13.5, -8 -1 25, 27 -1 25]
+			keyValue [27 -1 25, 78 -1 25, 78 -1 13.5, -8 -1 13.5, -8 -1 25, 27 -1 25]
 		}
 
 		DEF	quaynguoi3 OrientationInterpolator {

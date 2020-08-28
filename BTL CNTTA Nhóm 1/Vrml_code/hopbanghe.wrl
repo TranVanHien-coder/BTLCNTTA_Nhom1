@@ -241,7 +241,7 @@ Transform {
 		]
 }
 Transform {
-	translation 43.20 1.35 25.8
+	translation 43.3 1.35 25.8
    rotation 0 1 0 3.14
 	scale 0.25 0.25 0.25
 	children [
@@ -307,7 +307,7 @@ Transform {
 		]
 }
 Transform {
-	translation 43.15 1.35 12.5
+	translation 43.3 1.35 12.5
    rotation 0 1 0 0
 	scale 0.25 0.25 0.25
 	children [
@@ -334,6 +334,16 @@ Transform {
 			url	["kethop1ban4ghego.wrl"]
 		}
 		]
+}
+Transform {
+	translation 43.3 1.45 8.3
+   rotation 0 1 0 0
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi2.wrl"
+		}
+	]
 }
 Transform {
 	translation	43 0.8 6.5
@@ -588,6 +598,16 @@ Transform {
 		}
 	]
 }
+Transform {
+	translation 30.65 1.55 11.1
+   rotation 0 1 0 1.57
+	scale 0.25 0.25 0.25
+	children [
+		Inline {
+			url	"nguoingoi2.wrl"
+		}
+	]
+}
 
 Transform {
 	translation	 29 0.3 11.1
@@ -598,6 +618,7 @@ Transform {
 		}
 	]
 }
+
 Transform {
 	translation	 26.75 0.3 11.1
 
