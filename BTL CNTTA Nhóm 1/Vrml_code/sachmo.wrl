@@ -36,38 +36,54 @@ Transform {
 		}
 	]
 }
+DEF	timeCDN1 TimeSensor	{
+	 enabled TRUE
+	 cycleInterval 3
+	 loop TRUE
 
-DEF	click TouchSensor {}
-DEF	time TimeSensor	{
-	cycleInterval 5
-	enabled	FALSE
-	loop TRUE-
-}
-DEF	control Script {
-	eventIn	SFBool turn
-	eventOut SFBool	on
-	eventOut SFBool	off
-	field SFBool x TRUE
-	url	"javascript:
-	function turn(val){
-		if(val){
-			if(x){
-				on = true;
-				off = false
-			}else{
-				on = false;
-				off = true;
-			}
-			x=!x;
-		}
-	}
-	"
 }
 DEF	ori OrientationInterpolator	{
 	key	[0 0.5 1]
 	keyValue [0 0 1 0, 0 0 1 01.57, 0 0 1 3.14]
 }
-ROUTE click.isActive TO control.turn
-ROUTE control.on TO	time.enabled
-ROUTE time.fraction_changed TO	ori.set_fraction
+#DEF quaytayphai OrientationInterpolator {
+#	 key [0 0.25 0.5 1]
+#	 keyValue [ 0 1 0 0, 0 1 0 -0.4,0 1 0 0 , 0 1 0 .4 ]
+#}
+ROUTE timeCDN1.fraction_changed	TO ori.set_fraction
 ROUTE ori.value_changed	TO phanquay.rotation
+
+#DEF	click TouchSensor {}
+#DEF	time TimeSensor	{
+#	cycleInterval 3
+#	enabled	FALSE
+#	loop TRUE
+#}
+#DEF	control Script {
+#	eventIn	SFBool turn
+#	eventOut SFBool	on
+#	eventOut SFBool	off
+#	field SFBool x TRUE
+#	url	"javascript:
+#	function turn(val){
+#		if(val){
+#			if(x){
+#				on = true;
+#				off = false
+#			}else{
+#				on = false;
+#				off = true;
+#			}
+#			x=!x;
+#		}
+#	}
+#	"
+#}
+#DEF	ori OrientationInterpolator	{
+#	key	[0 0.5 1]
+#	keyValue [0 0 1 0, 0 0 1 01.57, 0 0 1 3.14]
+#}
+#ROUTE click.isActive TO control.turn
+#ROUTE control.on TO	time.enabled
+#ROUTE time.fraction_changed TO	ori.set_fraction
+#ROUTE ori.value_changed	TO phanquay.rotation

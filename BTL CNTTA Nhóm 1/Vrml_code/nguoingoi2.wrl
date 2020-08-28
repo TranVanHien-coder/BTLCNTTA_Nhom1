@@ -227,7 +227,7 @@ DEF	khuyutay Transform{
 	translation	-0.8 -2.2 0.3
 	children [Transform {
 	
-	rotation 1 0 0 -1.67
+	rotation 1 0 0 -1.87
 	children [
 		Shape {
 			appearance Appearance {
@@ -446,15 +446,25 @@ DEF khuyutaytrai Transform {
 		}
 	]
 }
+Transform {
+	translation	-1 -2.5 1.2
+	scale  6 6 6 
+	children [
+		Inline {
+			url	"sachmo.wrl"
+		}
+	]
+}
 DEF	timeCDN1 TimeSensor	{
 	 enabled TRUE
 	 cycleInterval 3
 	 loop TRUE
 
 }
-DEF quaytayphai OrientationInterpolator {
-	 key [0 0.25 0.5 1]
-	 keyValue [ 0 1 0 0, 0 1 0 -0.4,0 1 0 0 , 0 1 0 .4 ]
+
+DEF	quaytayphai OrientationInterpolator	{
+	key	[0 0.5 1]
+	keyValue [0 0 1 -1.57, 0 0 1 0, 0 0 1 1.57]
 }
-ROUTE timeCDN1.fraction_changed	TO quaytayphai.set_fraction
+ROUTE timeCDN1.fraction_changed	TO quaytayphai.set_fraction	  
 ROUTE quaytayphai.value_changed	TO khuyutay.rotation

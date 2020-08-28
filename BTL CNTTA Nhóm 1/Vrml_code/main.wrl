@@ -9,28 +9,28 @@ Transform {
 		}
 	]
 }
-#Inline {
-#	url	["ghepgiasach.wrl"]
-#}
-#Transform {
-#	translation	-10 0 -10
-#	children [
-#		Inline {
-#			url	["viahe/khung.wrl"]
-#		}
-#	]
-#}
+Inline {
+	url	["ghepgiasach.wrl"]
+}
+Transform {
+	translation	-10 0 -10
+	children [
+		Inline {
+			url	["viahe/khung.wrl"]
+		}
+	]
+}
 
-#Transform {
-#	children [
-#		Inline {
-#			url	["ghepden.wrl"]
-#		}
-#	]
-#}
-#Inline {
-#			url	["ghepquat.wrl"]
-#		}	
+Transform {
+	children [
+		Inline {
+			url	["ghepden.wrl"]
+		}
+	]
+}
+Inline {
+			url	["ghepquat.wrl"]
+		}	
 		
 #cay:
 DEF cay Transform {
