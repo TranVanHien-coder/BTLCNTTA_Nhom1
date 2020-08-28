@@ -155,16 +155,16 @@ Transform {
 		}
 	]
 }
-#Transform {
-#	translation	23.3 2.5 14.5
-#	rotation 0 1 0 1.57
-#	children [
-#		Inline
-#		{
-#			url	["tivi.wrl"]
-#		}
-#	]
-#}
+Transform {
+	translation	23.3 2.5 14.5
+	rotation 0 1 0 1.57
+	children [
+		Inline
+		{
+			url	["tivi.wrl"]
+		}
+	]
+}
 Transform {
 	translation	23.3 3 15.5
 	rotation 0 1 0 1.57
