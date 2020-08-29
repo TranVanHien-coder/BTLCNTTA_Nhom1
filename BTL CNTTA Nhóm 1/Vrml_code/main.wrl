@@ -10,60 +10,60 @@ Transform {
 	]
 }
 
-#Inline {
-#	url	["ghepgiasach.wrl"]
-#}
+Inline {
+	url	["ghepgiasach.wrl"]
+}
 
-#Transform {
-#	translation	-10 0 -10
-#	children [
-#		Inline {
-#			url	["viahe/khung.wrl"]
-#		}
-#	]
-#}
+Transform {
+	translation	-10 0 -10
+	children [
+		Inline {
+			url	["viahe/khung.wrl"]
+		}
+	]
+}
 
 
-#Transform {
-#	children [
-#		Inline {
-#			url	["ghepden.wrl"]
-#		}
-#	]
-#}
-#Inline {
-#			url	["ghepquat.wrl"]
-#		}	
+Transform {
+	children [
+		Inline {
+			url	["ghepden.wrl"]
+		}
+	]
+}
+Inline {
+			url	["ghepquat.wrl"]
+		}	
 
 		
-##cay:
-#DEF cay Transform {
-#	translation	-5 6.5 -2.5
-#	children [
-#		Inline {
-#			url	"caytron.wrl"
-#		}
-#	]
-#}
+#cay:
+DEF cay Transform {
+	translation	-5 6.5 -2.5
+	children [
+		Inline {
+			url	"caytron.wrl"
+		}
+	]
+}
 	
 
-#Transform {
-#	translation	0 0 45
-#	children [USE cay ]
-#}	
-#Transform {
-#	translation	49 0 0
-#	children [USE cay ]
-#}Transform {
-#	translation	49 0 45
-#	children [USE cay ]
-#}	
+Transform {
+	translation	0 0 45
+	children [USE cay ]
+}	
+Transform {
+	translation	49 0 0
+	children [USE cay ]
+}Transform {
+	translation	49 0 45
+	children [USE cay ]
+}	
 
-#Transform {
-#	translation	25 0 45
-#	scale 0.8 1 0.8
-#	children [USE cay ]
-#}		
+Transform {
+	translation	25 0 45
+	scale 0.8 1 0.8
+	children [USE cay ]
+}		
 #nguoi di o ngoai via he:
 Transform {
 	   translation	-6 2.7 47
