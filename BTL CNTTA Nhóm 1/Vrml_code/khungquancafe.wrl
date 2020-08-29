@@ -1064,3 +1064,36 @@ Transform {
 		}
 	]
 }
+Transform {	 
+	translation	1.5 0 8
+	rotation 0 1 0 1.57
+	scale 2 2 2
+	children [
+		Inline {
+			url	"nganhang.wrl"
+		}
+	]
+
+}
+Transform {	 
+	translation	1.5 0 9
+	rotation 0 1 0 1.57
+	scale 2 2 2
+	children [
+		Inline {
+			url	"nganhang.wrl"
+		}
+	]
+
+}
+Transform {	 
+	translation	1.5 0 7
+	rotation 0 1 0 1.57
+	scale 2 2 2
+	children [
+		Inline {
+			url	"nganhang.wrl"
+		}
+	]
+
+}
