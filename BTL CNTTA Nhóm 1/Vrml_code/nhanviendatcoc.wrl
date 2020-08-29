@@ -253,7 +253,7 @@ DEF	nguoi Transform	{
 											}
 										}
 									}
-									Transform {
+								DEF coc	Transform {
 										translation	0 0.025 0
 										scale 5 5 5
 										children [
@@ -412,37 +412,108 @@ DEF	nguoi Transform	{
 					]
 				}
 			]
+		} 
+		
+		DEF	touch1 TouchSensor {
+			enabled	TRUE
 		}
-		DEF	touch1 TouchSensor	{}
+
+		DEF	Time2 TimeSensor {
+			  enabled FALSE
+			 cycleInterval 1 
+			 loop FALSE
+			 startTime 1
+		}
+
+		DEF	Time3 TimeSensor {
+			  enabled FALSE
+			 cycleInterval 1 
+			 loop FALSE
+			 startTime 1
+		}
+	    
 	    DEF	timeCDN1 TimeSensor	{
-			enabled FALSE
-			 cycleInterval 3
-			 startTime 0
-			 stopTime 6000
+			 enabled TRUE
+			 cycleInterval 5 
 			 loop TRUE
 
-		}
-		DEF quaytaytrai OrientationInterpolator {
-			 key [0 0.25 0.5 1]
-			 keyValue [ 1 0 0 0, 1 0 0 0.4,1 0 0 0 , 1 0 0 -.4 ]
-		}
+		}	 
 
 		DEF quaychantrai OrientationInterpolator {
 			 key [0 0.25 0.5 1]
-			 keyValue [ 1 0 0 0, 1 0 0 0.4,1 0 0 0 , 1 0 0 -.4 ]
+			 keyValue [ 1 0 0 0, 1 0 0 0.4,1 0 0 0 , 1 0 0 0 ]
 		}
 		DEF quaychanphai OrientationInterpolator {
 			 key [0 0.25 0.5 1]
-			 keyValue [ 1 0 0 0, 1 0 0 -0.4,1 0 0 0 , 1 0 0 .4 ]
+			 keyValue [ 1 0 0 0, 1 0 0 -0.4,1 0 0 0 , 1 0 0 0 ]
 		}
+
+		DEF	dichuyencoc PositionInterpolator {
+			key[ 0 0.25 0.5 1]
+			keyValue [
+				0 0 0,
+				0 -1 2,
+				0 -1 2,
+				0 -1 2,
+				
+			]
+		}
+
+		DEF	dichuyencoc2 PositionInterpolator {
+			key[ 0 1]
+			keyValue [
+				0 -1 2,
+				0 0 0
+				
+			]
+		}
+
+		DEF ma Script {
+
+			eventIn SFBool turnOn
+
+
+			eventOut SFBool On
+
+			eventOut SFBool Off
+
+			field SFBool turn FALSE
+
+			url "javascript:
+					function turnOn(val){
+						if(val){
+							turn = !turn;
+							if(turn){
+								On= TRUE;
+                   				Off=FALSE;
+            					}
+        					else{
+           						On=FALSE;
+								Off=TRUE;
+        						}
+
+    						}
+					}
+				"
+
+		}
+
 	]
-		ROUTE touch1.isActive TO timeCDN1.enabled
+		
 	    ROUTE timeCDN1.fraction_changed	TO quaychantrai.set_fraction
 		ROUTE quaychantrai.value_changed TO	chantrai.rotation
 		ROUTE timeCDN1.fraction_changed	TO quaychanphai.set_fraction
 		ROUTE quaychanphai.value_changed TO	chanphai.rotation
-		ROUTE timeCDN1.fraction_changed	TO quaytaytrai.set_fraction
-		ROUTE quaytaytrai.value_changed	TO taytrai.rotation
+		ROUTE touch1.isActive TO ma.turnOn
+		ROUTE ma.On	TO Time2.enabled
+		ROUTE touch1.touchTime TO Time2.startTime
+		ROUTE Time2.fraction_changed	TO dichuyencoc.set_fraction
+		ROUTE dichuyencoc.value_changed	TO coc.translation
+
+		ROUTE ma.Off TO	Time3.enabled
+		ROUTE touch1.touchTime TO Time3.startTime
+		ROUTE Time3.fraction_changed TO dichuyencoc2.set_fraction
+		ROUTE dichuyencoc2.value_changed TO coc.translation
 }#end of nguoi
 
 
