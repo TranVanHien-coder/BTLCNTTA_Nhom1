@@ -35,7 +35,12 @@ Inline {
 			url	["ghepquat.wrl"]
 		}	
 
-		
+Transform	{
+	translation	42.3 4.15 40
+	children [
+		Inline {url "bienhieu.wrl"}
+	]
+}	
 #cay:
 DEF cay Transform {
 	translation	-5 6.5 -2.5
