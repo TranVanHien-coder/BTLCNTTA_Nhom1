@@ -1,0 +1,94 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .35 .16 .12
+					specularColor .21 .11 0
+				}
+			}
+			geometry Box {size 3.35 1.2 0.1}
+		}
+	]
+}
+Transform {
+	translation	-0.6 -0.05 0.05
+	children [
+		Shape {
+			geometry Box  {size 0.6 0.6 0.01}
+			appearance Appearance {
+				texture	ImageTexture {url "images/logoquan.png"}
+			}
+
+		}
+	]
+}
+
+Transform {
+	translation	0 0.5 0.06
+	children [
+		Shape {
+			geometry Text {
+				string ["KHÔNG GIAN VĂN HÓA ĐÔNG TÂY"]
+				fontStyle FontStyle	{
+					size 0.15
+					family "ARIAL"
+					style "PLAIN"
+					spacing	0.8
+					justify	"MIDDLE"
+					horizontal TRUE
+					leftToRight	TRUE
+					topToBottom	FALSE
+				}
+				length [3]
+				maxExtent 2.5
+			}
+		}
+	]
+}
+Transform {
+	translation	00.3 00.35 0.06
+	children [
+		Shape {
+			geometry Text {
+				string ["BIBLIO"]
+				fontStyle FontStyle	{
+					size 0.6
+					family "ARIAL"
+					style "BOLD"
+					spacing	0.8
+					justify	"MIDDLE"
+					horizontal TRUE
+					leftToRight	TRUE
+					topToBottom	FALSE
+				}
+				length [2.5]
+				maxExtent 1
+			}
+		}
+	]
+}
+Transform {
+	translation	00.3 -0.2 0.06
+	children [
+		Shape {
+			geometry Text {
+				string ["CAFE - SÁCH"]
+				fontStyle FontStyle	{
+					size 0.2
+					family "ARIAL"
+					style "PLAIN"
+					spacing	0.8
+					justify	"MIDDLE"
+					horizontal TRUE
+					leftToRight	TRUE
+					topToBottom	FALSE
+				}
+				length [1]
+				maxExtent 1
+			}
+		}
+	]
+}
